@@ -47,13 +47,16 @@ body::-webkit-scrollbar {
 }
 
 .social-hr {
-  border-left: 1px solid rgb(9, 213, 240);
+  border-left: 0px solid rgb(9, 213, 240);
   height: 50px;
   width: 0px;
 }
 
+.social-icons:hover {
+  box-shadow: 1px 1px 1px 1px white;
+}
+
 a {
-  padding-bottom: 20px;
   display: block;
   text-decoration: none;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
@@ -62,7 +65,7 @@ a {
 }
 
 a:hover {
-  color: rgb(9, 213, 240);
+  color: #09d5f0;
   cursor: pointer;
 }
 
