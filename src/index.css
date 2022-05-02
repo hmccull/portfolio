@@ -47,7 +47,7 @@ body::-webkit-scrollbar {
 }
 
 .social-hr {
-  border-left: 0px solid rgb(9, 213, 240);
+  border-left: 0px solid #09d5f0;
   height: 50px;
   width: 0px;
 }

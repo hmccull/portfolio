@@ -11,7 +11,7 @@ function NavBar() {
             <hr className='social-hr' />
             <a href="#contact">Contact</a>
             <hr className='social-hr' />
-            <a href="#resume">Resume</a>
+            <a href="./HannahMcCulloughResume.pdf" target='blank'>Resume</a>
         </div>
     )
 }
