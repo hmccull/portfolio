@@ -36,6 +36,10 @@ body::-webkit-scrollbar {
   top: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #social-nav-bar {
   position: fixed;
   margin-bottom: 2%;
@@ -76,33 +80,30 @@ a:active {
 /* * SECTIONS */
 
 #home {
-  margin-top: 350px;
+  padding-top: 350px;
   text-align: left;
   margin-right: 20%;
 }
 
 #about {
+  padding-top: 300px;
   clear: both;
   float: right;
   margin: 8% 20% 10% 35%;
 }
 
 #projects {
+  padding-top: 300px;
   clear: both;
   float: left;
   margin: 8% 35% 10% 20%;
 }
 
 #contact {
+  padding-top: 300px;
   clear: both;
   float: right;
   margin: 8% 20% 10% 35%;
-}
-
-#resume {
-  clear: both;
-  float: left;
-  margin: 8% 35% 10% 20%;
 }
 
 .right-section-header {
