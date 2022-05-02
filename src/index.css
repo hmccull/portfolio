@@ -74,13 +74,13 @@ a:hover {
 }
 
 a:active {
-  color: rgb(187, 218, 50);
+  color: rgb(138, 140, 142);
 }
 
 /* * SECTIONS */
 
 #home {
-  padding-top: 350px;
+  padding-top: 356px;
   text-align: left;
   margin-right: 20%;
 }
