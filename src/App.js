@@ -16,7 +16,7 @@ function App() {
     setTimeout(() => setLoading(false), 4000)
   }, [])
 
-  if (loading) return <LoadingMain />;
+  // if (loading) return <LoadingMain />;
 
   return (
     <div className="App">
