@@ -107,10 +107,9 @@ a:active {
 }
 
 #contact {
-  padding-top: 300px;
   clear: both;
   float: right;
-  margin: 8% 20% 10% 35%;
+  margin: 8% 20% 10% 60%;
 }
 
 .right-section-header {
@@ -130,10 +129,6 @@ a:active {
   margin-top: 75px;
 }
 
-.contact-content {
-  display: flex;
-}
-
 hr {
   clear: both;
   border: 1px solid rgb(9, 213, 240);
@@ -143,15 +138,18 @@ hr {
 
 #housd {
   text-align: center; 
+  margin: 100px;
   padding: 100px;
-  margin-bottom: 50px;
-  float: right;
+  box-shadow: 1px 1px 20px 2px aliceblue;
+  border-radius: 20px;
 }
 
 #strength-trainer {
   text-align: center;
+  margin: 100px;
   padding: 100px;
-  margin-bottom: 100px;
+  box-shadow: 1px 1px 20px 2px aliceblue;
+  border-radius: 20px;
 }
 
 

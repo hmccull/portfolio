@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import Switch from '@mui/material/Switch';
 import Collapse from '@mui/material/Collapse';
 import FormControlLabel from '@mui/material/FormControlLabel';
+import { Grow } from "@mui/material";
 
 const project = (
         <p className='project-text'>
@@ -51,6 +52,13 @@ function Housd() {
             >
                 {project}
             </Collapse>
+            <Grow 
+                direction="down" 
+                in={checked} 
+                container={containerRef.current}
+            >
+                {<hr />}
+            </Grow>
         </div>
     );
 }

@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import Switch from '@mui/material/Switch';
+import Grow from '@mui/material/Grow';
 import Collapse from '@mui/material/Collapse';
 import FormControlLabel from '@mui/material/FormControlLabel';
 
@@ -14,7 +15,7 @@ const project = (
         User interface implemented with JavaScript/React, reactstrap, and CSS
         <br />
         <br />
-        Authenticated users at login by encrypting identifying acc
+        Authenticated users at login by encrypting identifying account information via Auth and bcrypt
     </p>
 );
 
@@ -52,6 +53,13 @@ function StrengthTrainer() {
             >
                 {project}
             </Collapse>
+            <Grow 
+                direction="right" 
+                in={checked} 
+                container={containerRef.current}
+            >
+                {<hr />}
+            </Grow>
         </div>
     )
 }
