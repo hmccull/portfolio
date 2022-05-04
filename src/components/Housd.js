@@ -1,20 +1,58 @@
-import React from "react";
+import React, { useState, useRef } from "react";
+import Switch from '@mui/material/Switch';
+import Collapse from '@mui/material/Collapse';
+import FormControlLabel from '@mui/material/FormControlLabel';
+
+const project = (
+        <p className='project-text'>
+            Home maintenance checklist and service booking application designed with dual-user types for homeowners and service providers 
+            <br />
+            <br />
+            Modeled custom database schema and REST API with Active Record, Postgres, and Rails
+            <br />
+            <br />
+            Created two different dashboards with routing based on user login information determining user’s profile type
+            <br />
+            <br />
+            Utilized Auth and bcrypt to authenticate user login and authorize user functionality based on user type
+        </p>
+  );
 
 function Housd() {
+    const [checked, setChecked] = useState(false);
+    const containerRef = useRef(null);
+
+    const handleChange = () => {
+        setChecked((prev) => !prev);
+    }
+
     return (
         <div id='housd'>
-            <div className='left-project-header'>Housd</div>
+            <div className='project-header'>Housd</div>
             <div className='project-content'>
-            <img id='project-pic' src='./housd-mockup.png' alt='Placeholder' />
-                <p className='project-text'>
-                Home maintenance checklist and service booking application designed with dual-user types for homeowners and service providers
-                    • Modeled custom database schema and REST API with Active Record, Postgres, and Rails
-                    • Created two different dashboards with routing based on user login information determining user’s profile type
-                    • Utilized Auth and bcrypt to authenticate user login and authorize user functionality based on user type
-                </p>
+                <img id='project-pic' src='./housd-mockup.png' alt='Housd App Desktop' />
             </div>
+
+            <FormControlLabel
+                control={<Switch checked={checked} onChange={handleChange} />}
+                label="About this project"
+            />
+            <Collapse 
+                direction="down" 
+                in={checked} 
+                container={containerRef.current}
+            >
+                {<hr className='project-hr' />}
+            </Collapse>
+            <Collapse 
+                direction="up" 
+                in={checked} 
+                container={containerRef.current}
+            >
+                {project}
+            </Collapse>
         </div>
-    )
+    );
 }
 
 export default Housd;

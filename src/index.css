@@ -56,6 +56,13 @@ html {
   width: 0px;
 }
 
+.project-hr {
+  border-left: 0px solid #09d5f0;
+  height: 100px;
+  width: 0px;
+  margin-top: 40px;
+}
+
 .social-icons:hover {
   box-shadow: 1px 1px 1px 1px white;
 }
@@ -93,7 +100,7 @@ a:active {
 }
 
 #projects {
-  padding-top: 300px;
+  padding-top: 75px;
   clear: both;
   float: left;
   margin: 8% 35% 10% 20%;
@@ -123,9 +130,28 @@ a:active {
   margin-top: 75px;
 }
 
+.contact-content {
+  display: flex;
+}
+
 hr {
   clear: both;
   border: 1px solid rgb(9, 213, 240);
+}
+
+/* * PROJECTS */
+
+#housd {
+  text-align: center; 
+  padding: 100px;
+  margin-bottom: 50px;
+  float: right;
+}
+
+#strength-trainer {
+  text-align: center;
+  padding: 100px;
+  margin-bottom: 100px;
 }
 
 
@@ -146,6 +172,25 @@ code {
 
 .section-text {
   font-size: 25px;
+  text-align: right;
+}
+
+.project-header {
+  font-family: 'Squada One', regular;
+  font-size: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.project-text {
+  color: aliceblue;
+  font-size: 20px;
+  padding: 50px;
+  padding-top: 15px;
+  text-align: left;
+}
+
+.contact-text {
   text-align: right;
 }
 

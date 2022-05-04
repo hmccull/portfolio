@@ -7,8 +7,8 @@ function Projects() {
         <div id='projects'>
             <div className='left-section-header'>Projects</div>
             <hr />
-                <Housd />
                 <StrengthTrainer />
+                <Housd />
         </div>
     )
 }
