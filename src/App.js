@@ -5,7 +5,7 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
+import ToTop from './components/ToTop';
 import SocialNavBar from './components/SocialNavBar';
 import LoadingMain from './components/LoadingMain';
 
@@ -19,16 +19,16 @@ function App() {
   // if (loading) return <LoadingMain />;
 
   return (
-    <div className="App">
+    <div className='App'>
       <Suspense fallback={<LoadingMain />}>
-        <div className="App-header">
+        <div className='App-header'>
           <NavBar />
         </div>
-        <div className="App-main">
+        <div className='App-main'>
           <Home />
           <About />
           <Projects />
-          <Contact />
+          <ToTop />
         </div>
         <div>
           <SocialNavBar />

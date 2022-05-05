@@ -29,7 +29,7 @@ body::-webkit-scrollbar {
 #nav-bar {
   position: fixed;
   margin-top: 4%;
-  margin-left: 86%;
+  margin-left: 88%;
   padding: 20px;
   text-align: center;
   position: fixed;
@@ -43,7 +43,7 @@ html {
 #social-nav-bar {
   position: fixed;
   margin-bottom: 2%;
-  margin-left: 9%;
+  margin-left: 7%;
   padding: 20px;
   text-align: center;
   position: fixed;
@@ -109,7 +109,7 @@ a:active {
 #contact {
   clear: both;
   float: right;
-  margin: 8% 20% 10% 60%;
+  margin: 0% 0% 2% 68%;
 }
 
 .right-section-header {
@@ -137,17 +137,19 @@ hr {
 /* * PROJECTS */
 
 #strength-trainer {
-  margin-bottom: 5%;
-  margin-top: 5%;
-  padding: 100px 225px 100px 150px;
   text-align: center;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 #housd {
   text-align: center; 
+  margin-top: 4%;
   margin-bottom: 5%;
-  margin-top: 5%;
-  padding: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 /* * FONTS  */
@@ -191,7 +193,7 @@ code {
 .project-header {
   font-family: 'Squada One', regular;
   font-size: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   text-align: center;
 }
 

@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef } from 'react';
 import Switch from '@mui/material/Switch';
 import Grow from '@mui/material/Grow';
 import Collapse from '@mui/material/Collapse';
@@ -36,25 +36,19 @@ function StrengthTrainer() {
             </div>
 
             <FormControlLabel
-                control={<Switch checked={checked} onChange={handleChange} />}
-                label="About this project"
+                control={<Switch checked={checked} onChange={handleChange} color='default' />}
+                label='About this project'
+                labelPlacement='top'
             />
             <Collapse 
-                direction="down" 
-                in={checked} 
-                container={containerRef.current}
-            >
-                {<hr className='project-hr' />}
-            </Collapse>
-            <Collapse 
-                direction="up" 
+                direction='up' 
                 in={checked} 
                 container={containerRef.current}
             >
                 {project}
             </Collapse>
             <Grow 
-                direction="right" 
+                direction='right' 
                 in={checked} 
                 container={containerRef.current}
             >

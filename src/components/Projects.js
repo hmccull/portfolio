@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-import Housd from "./Housd";
-import StrengthTrainer from "./StrengthTrainer";
+import Housd from './Housd';
+import StrengthTrainer from './StrengthTrainer';
 
 
 function Projects() {
@@ -12,12 +12,11 @@ function Projects() {
             <div className='left-section-header'>Projects</div>
             <hr />
             <Carousel
-                axis='vertical'
-                swipeable
-                verticalSwipe="natural"
+                // axis='horizontal'
                 infiniteLoop
-                autoFocus={true}
-                // showStatus={false}
+                autoFocus
+                showThumbs={false}
+                width={1250}
             >
                 <div>
                     <StrengthTrainer />
