@@ -4,7 +4,7 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* remove scrollbar */
@@ -139,10 +139,8 @@ hr {
 #strength-trainer {
   margin-bottom: 5%;
   margin-top: 5%;
-  padding: 100px 225px 100px 100px;
+  padding: 100px 225px 100px 150px;
   text-align: center;
-  box-shadow: 1px 1px 20px 2px aliceblue;
-  border-radius: 20px;
 }
 
 #housd {
@@ -150,8 +148,6 @@ hr {
   margin-bottom: 5%;
   margin-top: 5%;
   padding: 100px;
-  box-shadow: 1px 1px 20px 2px aliceblue;
-  border-radius: 20px;
 }
 
 /* * FONTS  */
