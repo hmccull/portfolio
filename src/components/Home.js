@@ -6,12 +6,14 @@ function Home() {
     return (
         <div id='home'>
             <code>Hi, my name is</code>
-            <h1 className='squada-font'>
+            <h1 id='home-header'>
                 Hannah McCullough.
                 <br />
-                I develop things for the web.
             </h1>
-            <p className='intro-text'>
+            <h3 id='home-sub-header'>
+                I develop things for the web.
+            </h3>
+            <p id='intro-text'>
                 Coding makes me happy, so does design.
                 <br /> 
                 I do best in the face of a challenge. 

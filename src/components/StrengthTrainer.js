@@ -32,7 +32,7 @@ function StrengthTrainer() {
             <div className='project-header'>StrengthTrainer</div>
 
             <div id='strength-images'>
-                <img id='project-pic' src='./strength-trainer-mockup.png' alt='Strength Trainer App Home' width={1080} />
+                <img id='project-pic' src='./strength-trainer-mockup.png' alt='Strength Trainer App Home' width={900} />
             </div>
 
             <FormControlLabel

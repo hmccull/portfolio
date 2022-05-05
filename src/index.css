@@ -43,7 +43,7 @@ html {
 #social-nav-bar {
   position: fixed;
   margin-bottom: 2%;
-  margin-left: 6%;
+  margin-left: 9%;
   padding: 20px;
   text-align: center;
   position: fixed;
@@ -103,7 +103,7 @@ a:active {
   padding-top: 75px;
   clear: both;
   float: left;
-  margin: 8% 35% 10% 20%;
+  margin: 8% 30% 10% 20%;
 }
 
 #contact {
@@ -136,22 +136,23 @@ hr {
 
 /* * PROJECTS */
 
+#strength-trainer {
+  margin-bottom: 5%;
+  margin-top: 5%;
+  padding: 100px 225px 100px 100px;
+  text-align: center;
+  box-shadow: 1px 1px 20px 2px aliceblue;
+  border-radius: 20px;
+}
+
 #housd {
   text-align: center; 
-  margin: 100px;
+  margin-bottom: 5%;
+  margin-top: 5%;
   padding: 100px;
   box-shadow: 1px 1px 20px 2px aliceblue;
   border-radius: 20px;
 }
-
-#strength-trainer {
-  text-align: center;
-  margin: 100px;
-  padding: 100px;
-  box-shadow: 1px 1px 20px 2px aliceblue;
-  border-radius: 20px;
-}
-
 
 /* * FONTS  */
 
@@ -160,12 +161,30 @@ code {
   font-size: x-large;
 }
 
-.squada-font {
+#home-header {
+  margin-top: 20px;
   font-family: 'Squada One', regular;
+  font-size: 110px;
 }
 
-.intro-text {
+#home-sub-header {
+  margin-top: -50px;
+  font-family: 'Squada One', regular;
+  font-size: 60px;
+  color: rgba(240, 248, 255, 0.636);
+}
+
+#intro-text {
+  margin-top: -20px;
   font-size: 25px;
+  line-height: 50px;
+}
+
+#about-text {
+  margin-top: -20px;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: right;
 }
 
 .section-text {
