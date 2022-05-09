@@ -1,7 +1,7 @@
 body {
   background-color: #fcfcf9;
   min-height: 100vh;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 2vmin);
   color: #2E2C29;
   margin: 0;
   font-family: 'Roboto';
@@ -65,7 +65,7 @@ li a {
 a {
   color: #BDB1A5;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
@@ -90,7 +90,8 @@ a:active {
 #about {
   clear: both;
   float: right;
-  margin: 400px 20% 10% 35%;
+  margin: 0px 20% 10% 35%;
+  padding-top: 300px;
 }
 
 #about-content {
@@ -99,10 +100,10 @@ a:active {
 }
 
 #projects {
-  padding-top: 200px;
   clear: both;
   float: left;
-  margin: 8% 30% 10% 35%;
+  margin: 0px 30% 10% 35%;
+  padding-top: 100px;
 }
 
 #email {
@@ -136,7 +137,7 @@ hr {
 
 h5 {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-  font-size: x-large;
+  font-size: 20px;
   font-weight: 100;
   text-align: left;
   color: #BDB1A5;
@@ -146,14 +147,14 @@ h5 {
 #home-sub-header {
   margin-top: 0px;
   font-family: 'Squada One', regular;
-  font-size: 60px;
+  font-size: 50px;
   color: #BDB1A5;
   text-align: left;
 }
 
 #intro-text {
   margin-top: -20px;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 50px;
   text-align: left;
   color: #2E2C29;
@@ -163,20 +164,20 @@ h5 {
 .right-section-header {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   float: right;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #BDB1A5;
 }
 
 .left-section-header {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   float: left;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #BDB1A5;
 }
 
 #about-text {
   margin-top: -20px;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 50px;
   text-align: right;
   color: #2E2C29;
@@ -184,13 +185,13 @@ h5 {
 }
 
 .section-text {
-  font-size: 25px;
+  font-size: 20px;
   text-align: right;
 }
 
 .project-header {
   font-family: 'Squada One', regular;
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 40px;
   text-align: center;
   color: #BDB1A5;
@@ -198,7 +199,7 @@ h5 {
 
 .project-text {
   color: #2E2C29;
-  font-size: 20px;
+  font-size: 15px;
   padding: 50px;
   padding-top: 15px;
   text-align: left;
