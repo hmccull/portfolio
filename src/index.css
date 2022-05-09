@@ -75,7 +75,7 @@ li a {
 a {
   color: #BDB1A5;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 13px;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
@@ -91,7 +91,7 @@ a:active {
 /* * SECTIONS */
 
 #home {
-  padding-top: 200px;
+  padding-top: 100px;
   text-align: left;
   text-align: center;
   clear: both;
@@ -148,7 +148,7 @@ hr {
 
 h5 {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-  font-size: 12px;
+  font-size: 17px;
   font-weight: 100;
   text-align: left;
   color: #BDB1A5;
@@ -164,9 +164,9 @@ h5 {
 }
 
 #intro-text {
-  margin-top: -20px;
-  font-size: 15px;
-  line-height: 50px;
+  margin-top: -15px;
+  font-size: 17px;
+  line-height: 25px;
   text-align: left;
   color: #2E2C29;
   font-family: 'Roboto';
@@ -190,8 +190,8 @@ h5 {
 
 #about-text {
   margin-top: -20px;
-  font-size: 15px;
-  line-height: 50px;
+  font-size: 17px;
+  line-height: 25px;
   text-align: right;
   color: #2E2C29;
   font-family: 'Roboto';
@@ -204,7 +204,7 @@ h5 {
 
 .project-header {
   font-family: 'Squada One', regular;
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 40px;
   text-align: center;
   color: #BDB1A5;
@@ -212,7 +212,7 @@ h5 {
 
 .project-text {
   color: #2E2C29;
-  font-size: 15px;
+  font-size: 17px;
   padding: 50px;
   padding-top: 15px;
   text-align: left;
