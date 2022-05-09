@@ -5,7 +5,7 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
-import ToTop from './components/ToTop';
+import Email from './components/Email';
 import SocialNavBar from './components/SocialNavBar';
 import LoadingMain from './components/LoadingMain';
 
@@ -16,7 +16,7 @@ function App() {
     setTimeout(() => setLoading(false), 4000)
   }, [])
 
-  // if (loading) return <LoadingMain />;
+  if (loading) return <LoadingMain />;
 
   return (
     <div className='App'>
@@ -28,7 +28,7 @@ function App() {
           <Home />
           <About />
           <Projects />
-          <ToTop />
+          <Email />
         </div>
         <div>
           <SocialNavBar />

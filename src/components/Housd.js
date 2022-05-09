@@ -30,9 +30,8 @@ function Housd() {
     return (
         <div id='housd'>
             <div className='project-header'>Housd</div>
-            <div className='project-content'>
-                <img id='project-pic' src='./housd-mockup.png' alt='Housd App Desktop' />
-            </div>
+            
+            <img src='./housd-mockup.png' alt='Housd App Desktop' />
 
             <FormControlLabel
                 control={<Switch checked={checked} onChange={handleChange} color='default' />}
@@ -51,7 +50,7 @@ function Housd() {
                 in={checked} 
                 container={containerRef.current}
             >
-                {<hr />}
+                {<hr style={{ border: '.5px solid #BDB1A5' }} />}
             </Grow>
         </div>
     );

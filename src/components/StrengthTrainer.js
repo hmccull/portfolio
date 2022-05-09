@@ -31,9 +31,7 @@ function StrengthTrainer() {
         <div id='strength-trainer'>
             <div className='project-header'>StrengthTrainer</div>
 
-            <div id='strength-images'>
-                <img id='project-pic' src='./strength-trainer-mockup.png' alt='Strength Trainer App Home' width={900} />
-            </div>
+            <img id='project-pic' src='./strength-trainer-mockup.png' alt='Strength Trainer App Home' width={900} />
 
             <FormControlLabel
                 control={<Switch checked={checked} onChange={handleChange} color='default' />}
@@ -52,7 +50,7 @@ function StrengthTrainer() {
                 in={checked} 
                 container={containerRef.current}
             >
-                {<hr />}
+                {<hr style={{ border: '.5px solid #BDB1A5' }} />}
             </Grow>
         </div>
     )

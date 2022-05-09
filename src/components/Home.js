@@ -1,15 +1,11 @@
 import React from 'react';
-// import FadeIn from 'react-fade-in';
 
 function Home() {
 
     return (
         <div id='home'>
-            <code>Hi, my name is</code>
-            <h1 id='home-header'>
-                Hannah McCullough.
-                <br />
-            </h1>
+            <h5>Hi, my name is</h5>
+            <img id='logo-name' src='./hmName.svg' alt='Hannah McCullough' />
             <h3 id='home-sub-header'>
                 I develop things for the web.
             </h3>

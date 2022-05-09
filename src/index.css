@@ -1,8 +1,8 @@
 body {
-  background-color: #282c34;
+  background-color: #fcfcf9;
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #2E2C29;
   margin: 0;
   font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
@@ -13,6 +13,8 @@ body {
   overflow-y: scroll;
 }
 
+/* #2E2C29 FFFBF6 */
+
 body::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
@@ -21,27 +23,37 @@ body::-webkit-scrollbar {
 
 #loading {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 15%;
+  background-color: #fcfcf9;
 }
 
 /* * NAVBARS */
-
-#nav-bar {
-  position: fixed;
-  margin-top: 4%;
-  margin-left: 88%;
-  padding: 20px;
-  text-align: center;
-  position: fixed;
-  top: 0;
-}
 
 html {
   scroll-behavior: smooth;
 }
 
+#nav-bar {
+  margin-top: 2%;
+  margin-right: 10%;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ li {
+   float: left;
+ }
+
+li a {
+  display: block;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  padding: 14px 16px 14px 0px;
+}
+
 #social-nav-bar {
-  position: fixed;
   margin-bottom: 2%;
   margin-left: 7%;
   padding: 20px;
@@ -50,93 +62,69 @@ html {
   bottom: 0;
 }
 
-.social-hr {
-  border-left: 0px solid #E5FF16;
-  height: 50px;
-  width: 0px;
-}
-
-.project-hr {
-  border-left: 0px solid #E5FF16;
-  height: 100px;
-  width: 0px;
-  margin-top: 40px;
-}
-
-.social-icons:hover {
-  box-shadow: 1px 1px 1px 1px white;
-}
-
 a {
-  display: block;
+  color: #BDB1A5;
   text-decoration: none;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size: 20px;
-  color: aliceblue;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 a:hover {
-  color: #E5FF16;
+  color: #2E2C29;
   cursor: pointer;
 }
 
 a:active {
-  color: rgb(138, 140, 142);
+  color: #BDB1A5;
 }
 
 /* * SECTIONS */
 
 #home {
-  padding-top: 356px;
+  padding-top: 200px;
   text-align: left;
-  margin-right: 20%;
+  text-align: center;
+  clear: both;
 }
 
 #about {
-  padding-top: 300px;
   clear: both;
   float: right;
-  margin: 8% 20% 10% 35%;
+  margin: 400px 20% 10% 35%;
+}
+
+#about-content {
+  display: flex;
+  margin-top: 50px;
 }
 
 #projects {
-  padding-top: 75px;
+  padding-top: 200px;
   clear: both;
   float: left;
-  margin: 8% 30% 10% 20%;
+  margin: 8% 30% 10% 35%;
 }
 
-#contact {
-  clear: both;
+#email {
   float: right;
-  margin: 0% 0% 2% 68%;
-}
-
-.right-section-header {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-  float: right;
-  margin-bottom: 20px;
-}
-
-.left-section-header {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-  float: left;
-  margin-bottom: 20px;
-}
-
-.section-content {
-  display: flex;
-  margin-top: 75px;
+  margin: 0% 0% 2% 38%;
+  position: fixed;
+  bottom: 0;
 }
 
 hr {
   clear: both;
-  border: 1px solid #E5FF16;
+  border: -1px solid #2E2C29;
+}
+
+.section-hr {
+  clear: both;
+  border: .5px solid #2E2C29;
 }
 
 /* * PROJECTS */
 
-#strength-trainer {
+#strength-trainer, #housd {
   text-align: center;
   margin-top: 4%;
   margin-bottom: 5%;
@@ -144,38 +132,46 @@ hr {
   padding-right: 75px;
 }
 
-#housd {
-  text-align: center; 
-  margin-top: 4%;
-  margin-bottom: 5%;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
 /* * FONTS  */
 
-code {
+h5 {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size: x-large;
-}
-
-#home-header {
-  margin-top: 20px;
-  font-family: 'Squada One', regular;
-  font-size: 110px;
+  font-weight: 100;
+  text-align: left;
+  color: #BDB1A5;
+  margin-bottom: -10px;
 }
 
 #home-sub-header {
-  margin-top: -50px;
+  margin-top: 0px;
   font-family: 'Squada One', regular;
   font-size: 60px;
-  color: rgba(240, 248, 255, 0.636);
+  color: #BDB1A5;
+  text-align: left;
 }
 
 #intro-text {
   margin-top: -20px;
   font-size: 25px;
   line-height: 50px;
+  text-align: left;
+  color: #2E2C29;
+  font-family: 'Roboto';
+}
+
+.right-section-header {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  float: right;
+  margin-bottom: 20px;
+  color: #BDB1A5;
+}
+
+.left-section-header {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  float: left;
+  margin-bottom: 20px;
+  color: #BDB1A5;
 }
 
 #about-text {
@@ -183,6 +179,8 @@ code {
   font-size: 25px;
   line-height: 50px;
   text-align: right;
+  color: #2E2C29;
+  font-family: 'Roboto';
 }
 
 .section-text {
@@ -195,21 +193,28 @@ code {
   font-size: 50px;
   margin-bottom: 40px;
   text-align: center;
+  color: #BDB1A5;
 }
 
 .project-text {
-  color: aliceblue;
+  color: #2E2C29;
   font-size: 20px;
   padding: 50px;
   padding-top: 15px;
   text-align: left;
 }
 
-.contact-text {
-  text-align: right;
+#email {
+  float: right;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
 
 /* * IMAGES */
+
+#logo-name {
+  width: 100%;
+}
 
 #prof-pic {
   border-radius: 15px;

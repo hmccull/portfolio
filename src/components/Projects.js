@@ -10,9 +10,8 @@ function Projects() {
     return (
         <div id='projects'>
             <div className='left-section-header'>Projects</div>
-            <hr />
+            <hr className='section-hr' />
             <Carousel
-                // axis='horizontal'
                 infiniteLoop
                 autoFocus
                 showThumbs={false}
