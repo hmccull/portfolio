@@ -75,7 +75,7 @@ li a {
 a {
   color: #BDB1A5;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 14px;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
@@ -158,15 +158,15 @@ h5 {
 #home-sub-header {
   margin-top: 0px;
   font-family: 'Squada One', regular;
-  font-size: 20px;
+  font-size: 30px;
   color: #BDB1A5;
   text-align: left;
 }
 
 #intro-text {
-  margin-top: -15px;
+  margin-top: -25px;
   font-size: 17px;
-  line-height: 25px;
+  line-height: 30px;
   text-align: left;
   color: #2E2C29;
   font-family: 'Roboto';
@@ -191,7 +191,7 @@ h5 {
 #about-text {
   margin-top: -20px;
   font-size: 17px;
-  line-height: 25px;
+  line-height: 30px;
   text-align: right;
   color: #2E2C29;
   font-family: 'Roboto';
