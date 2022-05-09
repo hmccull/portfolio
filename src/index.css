@@ -19,6 +19,16 @@ body::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
 
+@media only screen and (max-width: 600px) {
+  #nav-bar { padding: 0; display: block; float: none; }
+  ul { margin: 2px; padding: 0; }
+  li { display: block; margin: 0; padding: 0; }
+  li a { display: block; padding: 0.2em; font-size: 1.1em; margin-bottom: 10px; text-align: center; }
+  #social-nav-bar { padding: 0; display: block; float: none; }
+  #email { float: none; padding: 0; margin: 2px; }
+  #email-text { text-align: center; }
+}
+
 /* margin: top right bottom left */
 
 #loading {
