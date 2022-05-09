@@ -5,8 +5,7 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
+import Email from './components/Email';
 import SocialNavBar from './components/SocialNavBar';
 import LoadingMain from './components/LoadingMain';
 
@@ -17,20 +16,19 @@ function App() {
     setTimeout(() => setLoading(false), 4000)
   }, [])
 
-  // if (loading) return <LoadingMain />;
+  if (loading) return <LoadingMain />;
 
   return (
-    <div className="App">
+    <div className='App'>
       <Suspense fallback={<LoadingMain />}>
-        <div className="App-header">
+        <div className='App-header'>
           <NavBar />
         </div>
-        <div className="App-main">
+        <div className='App-main'>
           <Home />
           <About />
           <Projects />
-          <Contact />
-          <Resume />
+          <Email />
         </div>
         <div>
           <SocialNavBar />

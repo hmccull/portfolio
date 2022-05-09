@@ -1,10 +1,10 @@
 body {
-  background-color: #282c34;
+  background-color: #fcfcf9;
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #2E2C29;
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* remove scrollbar */
@@ -12,6 +12,8 @@ body {
   scrollbar-width: none; /* for Firefox */
   overflow-y: scroll;
 }
+
+/* #2E2C29 FFFBF6 */
 
 body::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
@@ -21,123 +23,164 @@ body::-webkit-scrollbar {
 
 #loading {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 15%;
+  background-color: #fcfcf9;
 }
 
 /* * NAVBARS */
 
+html {
+  scroll-behavior: smooth;
+}
+
 #nav-bar {
-  position: fixed;
-  margin-top: 4%;
-  margin-left: 86%;
-  padding: 20px;
-  text-align: center;
-  position: fixed;
-  top: 0;
+  margin-top: 2%;
+  margin-right: 10%;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ li {
+   float: left;
+ }
+
+li a {
+  display: block;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  padding: 14px 16px 14px 0px;
 }
 
 #social-nav-bar {
-  position: fixed;
   margin-bottom: 2%;
-  margin-left: 6%;
+  margin-left: 7%;
   padding: 20px;
   text-align: center;
   position: fixed;
   bottom: 0;
 }
 
-.social-hr {
-  border-left: 1px solid rgb(9, 213, 240);
-  height: 50px;
-  width: 0px;
-}
-
 a {
-  padding-bottom: 20px;
-  display: block;
+  color: #BDB1A5;
   text-decoration: none;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size: 20px;
-  color: aliceblue;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 a:hover {
-  color: rgb(9, 213, 240);
+  color: #2E2C29;
   cursor: pointer;
 }
 
 a:active {
-  color: rgb(187, 218, 50);
+  color: #BDB1A5;
 }
 
 /* * SECTIONS */
 
 #home {
-  margin-top: 350px;
+  padding-top: 200px;
   text-align: left;
-  margin-right: 20%;
+  text-align: center;
+  clear: both;
 }
 
 #about {
   clear: both;
   float: right;
-  margin: 8% 20% 10% 35%;
+  margin: 400px 20% 10% 35%;
+}
+
+#about-content {
+  display: flex;
+  margin-top: 50px;
 }
 
 #projects {
+  padding-top: 200px;
   clear: both;
   float: left;
-  margin: 8% 35% 10% 20%;
+  margin: 8% 30% 10% 35%;
 }
 
-#contact {
-  clear: both;
+#email {
   float: right;
-  margin: 8% 20% 10% 35%;
+  margin: 0% 0% 2% 38%;
+  position: fixed;
+  bottom: 0;
 }
 
-#resume {
+hr {
   clear: both;
-  float: left;
-  margin: 8% 35% 10% 20%;
+  border: -1px solid #2E2C29;
+}
+
+.section-hr {
+  clear: both;
+  border: .5px solid #2E2C29;
+}
+
+/* * PROJECTS */
+
+#strength-trainer, #housd {
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+/* * FONTS  */
+
+h5 {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: x-large;
+  font-weight: 100;
+  text-align: left;
+  color: #BDB1A5;
+  margin-bottom: -10px;
+}
+
+#home-sub-header {
+  margin-top: 0px;
+  font-family: 'Squada One', regular;
+  font-size: 60px;
+  color: #BDB1A5;
+  text-align: left;
+}
+
+#intro-text {
+  margin-top: -20px;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: left;
+  color: #2E2C29;
+  font-family: 'Roboto';
 }
 
 .right-section-header {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   float: right;
   margin-bottom: 20px;
+  color: #BDB1A5;
 }
 
 .left-section-header {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   float: left;
   margin-bottom: 20px;
+  color: #BDB1A5;
 }
 
-.section-content {
-  display: flex;
-  margin-top: 75px;
-}
-
-hr {
-  clear: both;
-  border: 1px solid rgb(9, 213, 240);
-}
-
-
-/* * FONTS  */
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-  font-size: x-large;
-}
-
-.squada-font {
-  font-family: 'Squada One', regular;
-}
-
-.intro-text {
+#about-text {
+  margin-top: -20px;
   font-size: 25px;
+  line-height: 50px;
+  text-align: right;
+  color: #2E2C29;
+  font-family: 'Roboto';
 }
 
 .section-text {
@@ -145,7 +188,33 @@ code {
   text-align: right;
 }
 
+.project-header {
+  font-family: 'Squada One', regular;
+  font-size: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #BDB1A5;
+}
+
+.project-text {
+  color: #2E2C29;
+  font-size: 20px;
+  padding: 50px;
+  padding-top: 15px;
+  text-align: left;
+}
+
+#email {
+  float: right;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
 /* * IMAGES */
+
+#logo-name {
+  width: 100%;
+}
 
 #prof-pic {
   border-radius: 15px;

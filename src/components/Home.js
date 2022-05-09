@@ -1,17 +1,15 @@
 import React from 'react';
-// import FadeIn from 'react-fade-in';
 
 function Home() {
 
     return (
         <div id='home'>
-            <code>Hi, my name is</code>
-            <h1 className='squada-font'>
-                Hannah McCullough.
-                <br />
+            <h5>Hi, my name is</h5>
+            <img id='logo-name' src='./hmName.svg' alt='Hannah McCullough' />
+            <h3 id='home-sub-header'>
                 I develop things for the web.
-            </h1>
-            <p className='intro-text'>
+            </h3>
+            <p id='intro-text'>
                 Coding makes me happy, so does design.
                 <br /> 
                 I do best in the face of a challenge. 
