@@ -101,7 +101,7 @@ a:active {
   clear: both;
   float: right;
   margin: 0px 20% 10% 35%;
-  padding-top: 300px;
+  padding-top: 200px;
 }
 
 #about-content {
@@ -148,7 +148,7 @@ hr {
 
 h5 {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 100;
   text-align: left;
   color: #BDB1A5;
@@ -158,14 +158,14 @@ h5 {
 #home-sub-header {
   margin-top: 0px;
   font-family: 'Squada One', regular;
-  font-size: 50px;
+  font-size: 20px;
   color: #BDB1A5;
   text-align: left;
 }
 
 #intro-text {
   margin-top: -20px;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 50px;
   text-align: left;
   color: #2E2C29;
@@ -175,20 +175,22 @@ h5 {
 .right-section-header {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   float: right;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   color: #BDB1A5;
+  font-size: 20px;
 }
 
 .left-section-header {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   float: left;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   color: #BDB1A5;
+  font-size: 20px;
 }
 
 #about-text {
   margin-top: -20px;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 50px;
   text-align: right;
   color: #2E2C29;
@@ -202,7 +204,7 @@ h5 {
 
 .project-header {
   font-family: 'Squada One', regular;
-  font-size: 40px;
+  font-size: 20px;
   margin-bottom: 40px;
   text-align: center;
   color: #BDB1A5;
@@ -225,7 +227,7 @@ h5 {
 /* * IMAGES */
 
 #logo-name {
-  width: 100%;
+  width: 50vw;
 }
 
 #prof-pic {
