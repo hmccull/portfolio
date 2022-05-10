@@ -13,17 +13,8 @@
   }
 } */
 
-@media only screen and (max-width: 600px) {
+@media only all and (max-width: 600px) {
   #App { padding: 0.1em 0.6em 0.1em 0.4em; display: flex; flex-direction: row; font-size: 1.1em; width: 90vw; }
-  #loading { width: 50vw;}
-  #nav-bar { padding: 0; display: block; float: none; text-align: center; }
-  ul { margin: 2px; padding: 0; }
-  li { display: block; margin: 0; padding: 0; }
-  li a { display: block; float: none; padding: 0.2em; font-size: 1.1em; margin-bottom: 10px; text-align: center; }
-  #social-nav-bar { padding: 0; float: none; display: inline; padding: 0.2em; }
-  #prof-pic { max-width: 40vw; }
-  #email { float: none; padding: 0; margin: 2px; }
-  #email-text { text-align: center; text-orientation: initial; }
 }
 
 
