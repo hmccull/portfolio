@@ -24,14 +24,13 @@ body::-webkit-scrollbar {
 @media only screen and (max-width: 768px) {
   body { font-size: 1em; margin: 2px; }
   #loading { margin: 2px; }
-  #nav-bar { padding: 0; float: none; text-align: center; }
-  ul { margin: 2px; padding: 0; }
+  #nav-bar { float: none; text-align: center; }
+  ul { display: flex; margin: 2px; padding: 0; }
   li { float: none; margin: 0; padding: 0; }
-  li a { display: block; float: none; padding: 0.2em; font-size: 1em; margin-bottom: 2px; text-align: center; }
-  #social-nav-bar { float: none; display: flex; padding: 0.2em; }
-  #projects { padding: 2em; }
-  #about { padding: 2em; }
-  #prof-pic { height: 200px; }
+  li a { padding: 0.2em; font-size: 1em; margin-bottom: 2px; text-align: center; }
+  #social-nav-bar { float: none; padding: 0.2em; margin: 2px; }
+  #projects { float: none; padding: 2em; }
+  #about { float: none; padding: 2em; }
   #email { display: none; }
   hr { display: none; }
   img { height: fit-content; }
