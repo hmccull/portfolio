@@ -251,7 +251,7 @@ h5 {
 
 #prof-pic {
   border-radius: 15px;
-  max-height: 55vh;
+  max-height: 50vh;
   margin-right: 40px;
   flex: 1;
 }
@@ -265,7 +265,7 @@ h5 {
   ul { display: flex; margin: 2px; padding: 0; }
   li { float: none; margin: 0; padding: 0; }
   li a { padding: 0.5em; font-size: 1em; margin-bottom: 2px; text-align: center; display: block; }
-  #social-nav-bar { bottom: 0; display: block; position: relative; }
+  #social-nav-bar { display: flex; position: relative; }
   #projects { float: none; flex: 1; padding: 2em; margin: 2em; width: 100vw; }
   #about { float: none; flex: 1; padding: 2em; margin: 2em; }
   #email { display: none; }
