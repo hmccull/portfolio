@@ -20,14 +20,14 @@ body::-webkit-scrollbar {
 }
 
 @media only all and (max-width: 600px) {
-  body { display: flex; flex-direction: row; font-size: 1em; width: 90vw; }
+  body { display: flex; flex-direction: row; font-size: 1em; }
   #loading { width: 50vw;}
-  #nav-bar { padding: 0; display: block; float: none; text-align: center; }
+  #nav-bar { padding: 0; display: flex; float: none; text-align: center; }
   ul { margin: 2px; padding: 0; }
-  li { display: block; margin: 0; padding: 0; }
-  li a { display: block; float: none; padding: 0.2em; font-size: 1em; margin-bottom: 10px; text-align: center; }
-  #social-nav-bar { padding: 0; float: none; display: flex; padding: 0.2em; }
-  #prof-pic { height: 50%; }
+  li { float: none; margin: 0; padding: 0; }
+  li a { display: block; float: none; padding: 0.2em; font-size: 1em; margin-bottom: 2px; text-align: center; }
+  #social-nav-bar { float: none; display: flex; padding: 0.2em; }
+  #prof-pic { width: 50%; }
   #email { display: none; }
   hr { display: none; }
 }

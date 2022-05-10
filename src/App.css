@@ -14,7 +14,7 @@
 } */
 
 @media only all and (max-width: 600px) {
-  #App { padding: 0.1em 0.6em 0.1em 0.4em; display: flex; flex-direction: row; font-size: 1.1em; width: 90vw; }
+  #App-main { padding: 0.1em 0.6em 0.1em 0.4em; display: flex; flex-direction: row; font-size: 1.1em; }
 }
 
 
