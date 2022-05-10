@@ -24,6 +24,11 @@
 }
 
 body {
+  background-color: #fcfcf9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 0;
   font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
