@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
 
 @media only screen and (max-width: 768px) {
   body { font-size: 1em; margin: 2px; }
-  #loading { margin: 2px; }
+  #loading { margin: 2px; height: fit-content; }
   #nav-bar { float: none; text-align: center; margin: 2px; }
   ul { display: flex; margin: 2px; padding: 0; }
   li { float: none; margin: 0; padding: 0; }
@@ -39,7 +39,7 @@ body::-webkit-scrollbar {
 /* margin: top right bottom left */
 
 #loading {
-  margin-top: 12%;
+  margin-top: 10%;
   background-color: #fcfcf9;
   min-height: 100vh;
   display: flex; 
