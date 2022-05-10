@@ -13,6 +13,7 @@ function Projects() {
             <hr className='section-hr' />
             <Carousel
                 infiniteLoop
+                showArrows
                 autoFocus
                 showThumbs={false}
                 width={1150}
