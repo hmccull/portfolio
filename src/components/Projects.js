@@ -17,6 +17,7 @@ function Projects() {
                 swipeable
                 showStatus={false}
                 showThumbs={false}
+                width='60vw'
             >
                 <div>
                     <StrengthTrainer />
