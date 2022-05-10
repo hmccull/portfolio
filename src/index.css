@@ -1,9 +1,10 @@
 body {
   background-color: #fcfcf9;
-  min-height: 280px;
+  min-height: 100vh;
   display: flex; 
   flex-direction: column;
-  align-items: center; justify-content: center;
+  align-items: center; 
+  justify-content: center;
   font-size: calc(8px + 2vmin);
   margin: 0;
   padding: 1px;
@@ -20,7 +21,7 @@ body::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   body { font-size: 1em; }
   #nav-bar { padding: 0; display: flex; float: none; text-align: center; }
   ul { margin: 2px; padding: 0; }
@@ -38,12 +39,18 @@ body::-webkit-scrollbar {
   text-align: center;
   margin-top: 15%;
   background-color: #fcfcf9;
+  min-height: 100vh;
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
 }
 
 /* * NAVBARS */
 
 html {
   scroll-behavior: smooth;
+  height: -webkit-fill-available;
 }
 
 #nav-bar {
