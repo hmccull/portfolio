@@ -24,13 +24,13 @@ body::-webkit-scrollbar {
 @media only screen and (max-width: 768px) {
   body { font-size: 1em; margin: 2px; }
   #loading { margin: 2px; }
-  #nav-bar { float: none; text-align: center; }
+  #nav-bar { float: none; text-align: center; margin: 2px; }
   ul { display: flex; margin: 2px; padding: 0; }
   li { float: none; margin: 0; padding: 0; }
   li a { padding: 0.2em; font-size: 1em; margin-bottom: 2px; text-align: center; }
   #social-nav-bar { padding: 0.2em; margin: 2px; text-align: center; }
-  #projects { float: none; height: fit-content; padding: 2em; }
-  #about { float: none; height: fit-content; padding: 2em; }
+  #projects { float: none; height: fit-content; padding: 2em; margin: 2px;  }
+  #about { float: none; height: fit-content; padding: 2em; margin: 2px; }
   #email { display: none; }
   hr { display: none; }
   img { height: fit-content; }
@@ -39,7 +39,7 @@ body::-webkit-scrollbar {
 /* margin: top right bottom left */
 
 #loading {
-  margin-top: 15%;
+  margin-top: 12%;
   background-color: #fcfcf9;
   min-height: 100vh;
   display: flex; 
