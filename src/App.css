@@ -131,8 +131,8 @@ a:active {
 #projects {
   clear: both;
   float: left;
-  margin: 0px 35% 10% 35%;
-  width: 80vw;
+  margin: 0px 40% 10% 35%;
+  width: 50vw;
   padding-top: 100px;
 }
 
@@ -262,7 +262,7 @@ h5 {
   .App-header { padding: 0.2px; display: block; font-size: 0.9em; text-align: center; }
   .App-main { margin: 1px; padding: 1px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
   #loading { margin: 2px; width: 5vw; }
-  #nav-bar { float: inherit; display: block; text-align: center; }
+  #nav-bar { position: relative; display: block; text-align: center; }
   ul { display: flex; margin: 2px; padding: 0; }
   li { float: none; margin: 0; padding: 0; }
   li a { padding: 0.5em; font-size: 1em; margin-bottom: 2px; text-align: center; display: block; }
