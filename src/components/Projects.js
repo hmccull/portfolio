@@ -16,9 +16,9 @@ function Projects() {
                 showArrows
                 autoFocus
                 swipeable
+                dynamicHeight
                 showStatus={false}
                 showThumbs={false}
-                width='40vw'
             >
                 <div>
                     <StrengthTrainer />
