@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import Housd from './Housd';
 import StrengthTrainer from './StrengthTrainer';
@@ -17,7 +18,7 @@ function Projects() {
                 swipeable
                 showStatus={false}
                 showThumbs={false}
-                width='60vw'
+                width='50%'
             >
                 <div>
                     <StrengthTrainer />
