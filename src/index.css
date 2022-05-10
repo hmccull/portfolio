@@ -19,13 +19,13 @@ body::-webkit-scrollbar {
 
 @media only screen and (max-width: 768px) {
   body { font-size: 1em; margin: 2px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
-  #loading { margin: 2px; height: 50vh; }
+  #loading { margin: 2px; width: 20vw; }
   #nav-bar { float: none; display: block;  }
   ul { display: flex; margin: 2px; padding: 0; }
   li { float: none; margin: 0; padding: 0; }
   li a { padding: 0.2em; font-size: 1em; margin-bottom: 2px; text-align: center; display: block; }
   #social-nav-bar { padding: 0.2em; float: left; position: static; }
-  #projects { float: none; height: fit-content; padding: 2em; margin: 2px;  }
+  #projects { float: none; height: 50vh; padding: 2em; margin: 2px;  }
   #about { float: none; height: fit-content; padding: 2em; margin: 2px; }
   #email { display: none; }
   hr { display: none; }
