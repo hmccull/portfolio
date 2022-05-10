@@ -15,9 +15,8 @@ function Projects() {
                 infiniteLoop
                 showArrows
                 autoFocus
-                dynamicHeight
                 showThumbs={false}
-                width={1000}
+                height='100%'
             >
                 <div>
                     <StrengthTrainer />

@@ -25,7 +25,6 @@ body::-webkit-scrollbar {
   #about { float: none; padding: 2em; margin: 2px; }
   #email { display: none; }
   hr { display: none; }
-  img { height: 50vh; }
 }
 
 /* margin: top right bottom left */
@@ -237,8 +236,8 @@ h5 {
 
 #prof-pic {
   border-radius: 15px;
-  width: 20vw;
-  height: fit-content;
+  max-width: 100%;
+  min-height: 100%;
   margin-right: 40px;
-  flex: 1;
+  flex: 2;
 }
