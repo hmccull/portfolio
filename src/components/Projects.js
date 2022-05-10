@@ -15,7 +15,7 @@ function Projects() {
                 infiniteLoop
                 autoFocus
                 showThumbs={false}
-                width={1250}
+                width={1150}
             >
                 <div>
                     <StrengthTrainer />
