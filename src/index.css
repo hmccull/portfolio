@@ -19,15 +19,15 @@ body::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
 
-@media only all and (max-width: 600px) {
-  body { display: flex; flex-direction: row; font-size: 1em; }
-  #loading { width: 50vw;}
+@media only screen and (max-width: 768px) {
+  body { display: flex; flex-direction: row; font-size: 1em; width: fit-content; }
+  #loading { width: 50%;}
   #nav-bar { padding: 0; display: flex; float: none; text-align: center; }
   ul { margin: 2px; padding: 0; }
   li { float: none; margin: 0; padding: 0; }
   li a { display: block; float: none; padding: 0.2em; font-size: 1em; margin-bottom: 2px; text-align: center; }
   #social-nav-bar { float: none; display: flex; padding: 0.2em; }
-  #prof-pic { width: 50%; }
+  #prof-pic { width: fit-content(20em); }
   #email { display: none; }
   hr { display: none; }
 }
