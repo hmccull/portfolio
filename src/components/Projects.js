@@ -16,7 +16,7 @@ function Projects() {
                 showArrows
                 autoFocus
                 swipeable
-                height='50vh'
+                width={750}
                 dynamicHeight={true}
                 showStatus={false}
                 showThumbs={false}
