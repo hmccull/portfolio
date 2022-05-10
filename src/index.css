@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
   li { float: none; margin: 0; padding: 0; }
   li a { padding: 0.2em; font-size: 1em; margin-bottom: 2px; text-align: center; display: block; }
   #social-nav-bar { left: 10px; display: flex; position: absolute; }
-  #projects { float: none; flex: auto; padding: 2em; margin: 2px; }
+  #projects { float: none; flex: auto; padding: 2em; margin: 2px; width: 100vw; overflow: hidden; }
   #about { float: none; flex: auto; padding: 2em; margin: 2px; }
   #email { display: none; }
   hr { display: none; }
