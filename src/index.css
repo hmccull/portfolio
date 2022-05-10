@@ -22,8 +22,8 @@ body::-webkit-scrollbar {
 }
 
 @media only screen and (max-width: 768px) {
-  #loading { margin: 2%; }
-  body { font-size: 1em; }
+  body { font-size: 1em; margin: 2px; }
+  #loading { margin: 2px; }
   #nav-bar { padding: 0; float: none; text-align: center; }
   ul { margin: 2px; padding: 0; }
   li { float: none; margin: 0; padding: 0; }
@@ -34,12 +34,12 @@ body::-webkit-scrollbar {
   #prof-pic { height: 200px; }
   #email { display: none; }
   hr { display: none; }
+  img { height: fit-content; }
 }
 
 /* margin: top right bottom left */
 
 #loading {
-  text-align: center;
   margin-top: 15%;
   background-color: #fcfcf9;
   min-height: 100vh;
