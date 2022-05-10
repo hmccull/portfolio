@@ -16,7 +16,6 @@ function Projects() {
                 showArrows
                 autoFocus
                 showThumbs={false}
-                width={1150}
             >
                 <div>
                     <StrengthTrainer />
