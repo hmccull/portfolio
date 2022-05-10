@@ -15,6 +15,8 @@ function Projects() {
                 infiniteLoop
                 showArrows
                 autoFocus
+                swipeable
+                showStatus={false}
                 showThumbs={false}
             >
                 <div>
