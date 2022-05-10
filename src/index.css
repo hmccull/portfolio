@@ -28,9 +28,9 @@ body::-webkit-scrollbar {
   ul { display: flex; margin: 2px; padding: 0; }
   li { float: none; margin: 0; padding: 0; }
   li a { padding: 0.2em; font-size: 1em; margin-bottom: 2px; text-align: center; }
-  #social-nav-bar { float: none; padding: 0.2em; margin: 2px; }
-  #projects { float: none; padding: 2em; }
-  #about { float: none; padding: 2em; }
+  #social-nav-bar { padding: 0.2em; margin: 2px; text-align: center; }
+  #projects { float: none; height: fit-content; padding: 2em; }
+  #about { float: none; height: fit-content; padding: 2em; }
   #email { display: none; }
   hr { display: none; }
   img { height: fit-content; }
