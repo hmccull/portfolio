@@ -260,10 +260,11 @@ h5 {
   .App { margin: 2px; padding: 1px; }
   .App-header { padding: 0.2px; display: flex; text-align: center; justify-content: center; font-size: 0.9em; }
   .App-main { margin: 1px; padding: 1px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  #loading { margin: 0; }
   .loading-logo { width: 90vw;}
   ul { display: flex; margin-top: 2px; padding: 0; }
   li { float: none; margin: 0; padding: 0; }
-  li a { padding: 0.5em; font-size: 1em; text-align: center; display: block; }
+  li a { padding-top: 0.5em; padding-left: 0.5em; font-size: 1em; text-align: center; }
   #logo-name { width: 60vw; }
   #social-nav-bar { display: flex; position: relative; }
   #projects { float: none; flex: 1; padding: 2em; margin: 5em; width: 90vw; }
