@@ -263,7 +263,7 @@ h5 {
   .App-main { margin: 1px; padding: 1px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
   #loading { margin: 2px; width: 5vw; }
   /* #nav-bar { margin-left: 5%; } */
-  ul { display: flex; margin: 2px; padding: 0; }
+  ul { display: flex; margin-top: 2px; margin-right: 5px; padding: 0; }
   li { float: none; margin: 0; padding: 0; }
   li a { padding: 0.5em; font-size: 1em; margin-bottom: 2px; text-align: center; display: block; }
   #logo-name { width: 60vw; }
