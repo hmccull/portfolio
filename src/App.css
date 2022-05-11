@@ -269,8 +269,9 @@ h5 {
   #logo-name { width: 60vw; }
   #social-nav-bar { display: flex; position: relative; }
   #projects { float: none; flex: 1; padding: 2em; margin: 5em; width: 90vw; }
-  #about { float: none; display: block; padding: 2em; margin: 2em; }
-  #about-text { line-height: normal; }
+  #about { float: none; padding: 2em; margin: 2em; }
+  #about-content { display: block; }
+  #about-text { line-height: normal; text-align: left; }
   #email { display: none; }
   hr { display: none; }
 }
