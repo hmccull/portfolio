@@ -25,6 +25,7 @@ function Projects() {
                     <Housd />
                 </div>
             </Carousel>
+            <p>More projects coming soon!</p>
         </div>
     )
 }
