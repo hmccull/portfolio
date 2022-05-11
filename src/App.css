@@ -263,7 +263,7 @@ h5 {
   #loading { margin: 0; }
   .loading-logo { width: 90vw;}
   ul { display: flex; margin-top: 2px; padding: 0; }
-  li { float: none; margin: 0; padding: 0; }
+  li { float: none; margin: 0; padding-left: 1em; }
   li a { padding-top: 0.5em; padding-left: 0.5em; font-size: 1em; text-align: center; }
   #logo-name { width: 60vw; }
   #social-nav-bar { display: flex; position: relative; }
