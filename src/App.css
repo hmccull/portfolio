@@ -119,7 +119,7 @@ a:active {
   display: flex;
   clear: both;
   float: right;
-  margin: 2% 20% 10% 35%;
+  margin: 3% 20% 10% 35%;
   padding-top: 200px;
 }
 
@@ -263,7 +263,7 @@ h5 {
   .App-main { margin: 1px; padding: 1px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
   #loading { margin: 2px; width: 5vw; }
   /* #nav-bar { margin-left: 5%; } */
-  ul { display: flex; margin-top: 2px; margin-right: 5px; padding: 0; }
+  ul { display: flex; margin-top: 2px; margin-right: 7px; padding: 0; }
   li { float: none; margin: 0; padding: 0; }
   li a { padding: 0.5em; font-size: 1em; margin-bottom: 2px; text-align: center; display: block; }
   #logo-name { width: 60vw; }
@@ -271,7 +271,7 @@ h5 {
   #projects { float: none; flex: 1; padding: 2em; margin: 5em; width: 90vw; }
   #about { float: none; padding: 2em; margin: 2em; }
   #about-content { display: block; }
-  #about-text { line-height: 20px; text-align: left; padding-top: 3em; }
+  #about-text { line-height: 22px; text-align: left; padding-top: 3em; }
   #email { display: none; }
   hr { display: none; }
 }
