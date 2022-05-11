@@ -36,7 +36,6 @@ body {
   /* remove scrollbar */
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll;
 }
 
 body::-webkit-scrollbar {
@@ -261,7 +260,7 @@ h5 {
   .App { margin: 2px; padding: 1px; }
   .App-header { padding: 0.2px; display: block; font-size: 0.9em; text-align: center; }
   .App-main { margin: 1px; padding: 1px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
-  .loading-logo { margin: 5%; width: 90vw;}
+  .loading-logo { margin-top: 2%; width: 90vw;}
   /* #nav-bar { margin-left: 5%; } */
   ul { display: flex; margin-top: 2px; margin-right: 7px; padding: 0; }
   li { float: none; margin: 0; padding: 0; }
