@@ -268,10 +268,10 @@ h5 {
   #logo-name { width: 60vw; }
   #social-nav-bar { display: flex; position: relative; }
   #projects { float: none; flex: 1; padding: 2em; margin: 5em; width: 90vw; }
-  #about { float: none; padding: 2em; margin: 5em; width: 90vw; }
+  #about { float: none; padding: 3em; margin: 5em; width: 90vw; }
   #about-content { display: block; margin: 0; }
   #about-text { line-height: 23px; text-align: left; padding-top: 3em; }
   #email { display: none; }
   hr { display: none; }
-  .right-section-header, .left-section-header { float: none; }
+  .right-section-header, .left-section-header { float: none; text-align: left; }
 }
