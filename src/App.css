@@ -262,11 +262,12 @@ h5 {
   .App-main { margin: 1px; padding: 1px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
   #loading { margin: 0; }
   .loading-logo { width: 90vw;}
-  ul { display: flex; margin-top: 2px; padding: 0; }
+  ul { display: flex; margin-top: 5px; padding: 0; }
   li { float: none; margin: 0; padding-left: 1em; }
-  li a { padding-top: 0.5em; padding-left: 0.5em; font-size: 1em; text-align: center; }
+  li a { padding-left: 0.5em; font-size: 1em; text-align: center; }
   #logo-name { width: 60vw; }
   #social-nav-bar { display: flex; position: relative; }
+  #home { padding-top: 60px; }
   #projects { float: none; flex: 1; padding: 2em; margin: 5em; width: 90vw; }
   #about { float: none; padding: 3em; margin: 5em; width: 90vw; }
   #about-content { display: block; margin: 0; }
