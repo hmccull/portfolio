@@ -271,7 +271,7 @@ h5 {
   #projects { float: none; flex: 1; padding: 2em; margin: 5em; width: 90vw; }
   #about { float: none; padding: 2em; margin: 2em; }
   #about-content { display: block; }
-  #about-text { line-height: 10px; text-align: left; padding-top: 3em; }
+  #about-text { line-height: 20px; text-align: left; padding-top: 3em; }
   #email { display: none; }
   hr { display: none; }
 }
