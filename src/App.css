@@ -273,4 +273,5 @@ h5 {
   #about-text { line-height: 23px; text-align: left; padding-top: 3em; }
   #email { display: none; }
   hr { display: none; }
+  .right-section-header, .left-section-header { float: none; }
 }
