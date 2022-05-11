@@ -2,7 +2,7 @@ import React from 'react';
 import Slide from '@mui/material/Slide';
 
 const logo = (
-    <img src='./hmLogo.svg' className='App-logo' alt='logo' />
+    <img src='./hmLogo.svg' className='loading-logo' alt='logo' />
 )
 
 function LoadingMain() {
