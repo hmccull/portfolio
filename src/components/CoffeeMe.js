@@ -13,7 +13,7 @@ const theme = createTheme({
 });
 
 const project = (
-    <ThemeProvider>
+    <ThemeProvider theme={theme}>
         <p className='project-text'>
             SPA to get and share coffee recipes with search and filtering tools and the capability to post new recipes
             <br />
@@ -26,10 +26,10 @@ const project = (
             <br />
             Designed layouts and components to provide a seamless user experience while navigating the application
         </p>
-        <Button variant='outlined' href='https://github.com/1NJ57C3/phase-3-sinatra-react-project-frontend'>
+        <Button variant='outlined' href='https://github.com/1NJ57C3/phase-3-sinatra-react-project-frontend' color='primary'>
             GitHub - Front End
         </Button>
-        <Button variant='outlined' href='https://github.com/1NJ57C3/phase-3-sinatra-react-project-backend'>
+        <Button variant='outlined' href='https://github.com/1NJ57C3/phase-3-sinatra-react-project-backend' color='primary'>
             GitHub - Back End
         </Button>
     </ThemeProvider>
