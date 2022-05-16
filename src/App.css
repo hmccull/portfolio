@@ -3,10 +3,6 @@
   background-color: #fcfcf9;
   padding: 2px;
   min-height: 280px;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
 }
 
 .App-header {
@@ -25,10 +21,6 @@
 
 body {
   background-color: #fcfcf9;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
   margin: 0;
   font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
@@ -41,8 +33,6 @@ body {
 body::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
-
-/* margin: top right bottom left */
 
 #loading {
   margin-top: 1%;
@@ -67,15 +57,8 @@ html {
   float: right;
 }
 
-ul {
-  list-style-type: none;
-}
-
- li {
-   float: left;
- }
-
-li a {
+ #nav-bar a {
+  text-decoration: none;
   display: block;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   padding: 14px 16px 14px 0px;
@@ -276,13 +259,12 @@ h5 {
 
 @media all and (max-width: 768px) {
   .App { margin: 2px; padding: 1px; }
-  .App-header { padding: 0.2px; display: flex; text-align: center; justify-content: center; font-size: 0.9em; }
+  .App-header { padding: 0; display: flex; text-align: center; justify-content: center; font-size: 0.9em; }
   .App-main { margin: 1px; padding: 1px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
   #loading { margin: 0; }
   .loading-logo { width: 90vw;}
-  ul { display: flex; margin-top: 10px; padding: 0; }
-  li { float: none; margin: 0; padding-left: 1em; }
-  li a { padding-left: 0.5em; font-size: 1em; text-align: center; }
+  #nav-bar { display: flex; margin-top: 10px; padding: 0; }
+  #nav-bar a { padding-left: 0.5em; font-size: 1em; text-align: center; }
   #logo-name { width: 60vw; }
   #social-nav-bar { display: flex; position: relative; }
   #home { padding-top: 60px; }
