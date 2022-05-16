@@ -64,7 +64,7 @@ html {
 #nav-bar {
   background-color: #fcfcf9;
   position: fixed;
-  padding-top: 2% 10% 2% 0;
+  padding: 2% 10% 2% 0;
   float: right;
 }
 
@@ -162,6 +162,16 @@ hr {
   margin-bottom: 5%;
   padding-left: 75px;
   padding-right: 75px;
+}
+
+.project-btn {
+  border: .5px solid #2E2C29;
+  border-radius: 5px;
+  padding: 12px 28px;
+  text-decoration: none;
+  text-align: center;
+  color: #2E2C29;
+  font-size: 13px;
 }
 
 /* * FONTS  */

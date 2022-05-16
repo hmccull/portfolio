@@ -4,17 +4,9 @@ import Switch from '@mui/material/Switch';
 import Grow from '@mui/material/Grow';
 import Collapse from '@mui/material/Collapse';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Button from '@mui/material/Button';
-
-const theme = createTheme ({
-    palette: {
-        primary: '#2E2C29',
-    },
-});
 
 const project = (
-    <ThemeProvider theme={theme}>
+    <>
         <p className='project-text'>
             Strength training application tracker equipped with organizational workout logging and data calculations based on user input
             <br />
@@ -27,10 +19,10 @@ const project = (
             <br />
             Authenticated users at login by encrypting identifying account information via Auth and bcrypt
         </p>
-        <Button variant='outlined' href='https://github.com/hmccull/strength-trainer' color='primary'>
+        <a className='project-btn' href='https://github.com/hmccull/strength-trainer'>
             GitHub
-        </Button>
-    </ThemeProvider>
+        </a>
+    </>
 );
 
 function StrengthTrainer() {

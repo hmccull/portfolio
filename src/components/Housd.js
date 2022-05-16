@@ -1,20 +1,10 @@
 import React, { useState, useRef } from 'react';
-
 import Switch from '@mui/material/Switch';
 import Collapse from '@mui/material/Collapse';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import { Grow } from '@mui/material';
-// import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Button from '@mui/material/Button';
-
-// const theme = createTheme ({
-//     palette: {
-//         primary: '#2E2C29',
-//     },
-// });
 
 const project = (
-    <>
         <p className='project-text'>
             Home maintenance checklist and service booking application designed with dual-user types for homeowners and service providers 
             <br />
@@ -27,10 +17,9 @@ const project = (
             <br />
             Utilized Auth and bcrypt to authenticate user login and authorize user functionality based on user type
         </p>
-        <Button variant='outlined' href='https://github.com/glpierce/project-template-react-rails-api'>
+        <a className='project-btn'  href='https://github.com/hmccull/strength-trainer'>
             GitHub
-        </Button>
-    </>
+        </a>
   );
 
 function Housd() {
