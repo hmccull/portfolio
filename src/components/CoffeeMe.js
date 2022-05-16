@@ -6,20 +6,20 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 
 const project = (
     <p className='project-text'>
-        Strength training application tracker equipped with organizational workout logging and data calculations based on user input
+        SPA to get and share coffee recipes with search and filtering tools and the capability to post new recipes
         <br />
         <br />
-        Developed Rails API and Postgres back end with endpoints for users and their workouts
+        Engineered back end using Active Record and Rails
         <br />
         <br />
-        User interface implemented with JavaScript/React, reactstrap, and CSS
+        Implemented modern front end with JavaScript/React, Material UI, and CSS
         <br />
         <br />
-        Authenticated users at login by encrypting identifying account information via Auth and bcrypt
+        Designed layouts and components to provide a seamless user experience while navigating the application
     </p>
 );
 
-function StrengthTrainer() {
+function CoffeeMe() {
     const [checked, setChecked] = useState(false);
     const containerRef = useRef(null);
 
@@ -29,9 +29,9 @@ function StrengthTrainer() {
 
     return (
         <div className='project-container'>
-            <div className='project-header'>StrengthTrainer</div>
+            <div className='project-header'>CoffeeMe</div>
 
-            <img id='project-pic' src='./strength-trainer-mockup.png' alt='Strength Trainer App Mockup' width={900} />
+            <img id='project-pic' src='./coffeeme-recipe-mockup.png' alt='CoffeeMe Recipe App' width={900} />
 
             <FormControlLabel
                 control={<Switch checked={checked} onChange={handleChange} color='default' />}
@@ -56,4 +56,4 @@ function StrengthTrainer() {
     )
 }
 
-export default StrengthTrainer;
+export default CoffeeMe;

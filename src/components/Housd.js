@@ -29,7 +29,7 @@ function Housd() {
 
     return (
         <div id='housd'>
-            <div className='project-header'>Housd</div>
+            <div className='project-container'>Housd</div>
             
             <img src='./housd-mockup.png' alt='Housd App Desktop' />
 
