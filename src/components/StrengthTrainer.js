@@ -6,6 +6,14 @@ import Collapse from '@mui/material/Collapse';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Button from '@mui/material/Button';
 
+const theme = createTheme ({
+    palette: {
+        primary: {
+
+        }
+    }
+})
+
 const project = (
     <>
         <p className='project-text'>
@@ -20,7 +28,7 @@ const project = (
             <br />
             Authenticated users at login by encrypting identifying account information via Auth and bcrypt
         </p>
-        <Button variant='outlined' href='https://github.com/hmccull/strength-trainer' color='dark'>
+        <Button variant='outlined' href='https://github.com/hmccull/strength-trainer'>
             GitHub
         </Button>
     </>

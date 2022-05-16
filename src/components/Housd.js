@@ -18,7 +18,7 @@ const project = (
             <br />
             Utilized Auth and bcrypt to authenticate user login and authorize user functionality based on user type
         </p>
-        <Button variant='outlined' href='https://github.com/glpierce/project-template-react-rails-api' color='dark'>
+        <Button variant='outlined' href='https://github.com/glpierce/project-template-react-rails-api'>
             GitHub
         </Button>
     </>
