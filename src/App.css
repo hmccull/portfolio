@@ -62,9 +62,10 @@ html {
 }
 
 #nav-bar {
-  margin-top: 2%;
-  margin-right: 10%;
+  background-color: #fcfcf9;
+  padding-top: 2% 10% 2% 0;
   float: right;
+  position: sticky;
 }
 
 ul {
@@ -85,7 +86,7 @@ li a {
   margin-bottom: 2%;
   margin-left: 7%;
   padding: 20px;
-  position: fixed;
+  position: sticky;
   bottom: 0;
 }
 

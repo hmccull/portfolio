@@ -23,10 +23,10 @@ function Projects() {
                     <StrengthTrainer />
                 </div>
                 <div>
-                    <Housd />
+                    <CoffeeMe />
                 </div>
                 <div>
-                    <CoffeeMe />
+                    <Housd />
                 </div>
             </Carousel>
             <p><em>More projects coming soon!</em></p>

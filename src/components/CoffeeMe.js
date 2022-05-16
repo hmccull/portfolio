@@ -29,7 +29,7 @@ function CoffeeMe() {
 
     return (
         <div className='project-container'>
-            <div className='project-header'>CoffeeMe</div>
+            <div className='project-header'>CoffeeMe Recipes</div>
 
             <img id='project-pic' src='./coffeeme-recipes-mockup.png' alt='CoffeeMe Recipe App' width={900} />
 
