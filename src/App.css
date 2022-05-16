@@ -53,6 +53,7 @@ html {
 
 #nav-bar {
   background-color: #fcfcf9;
+  margin-right: 10%;
   position: fixed;
   float: right;
 }
