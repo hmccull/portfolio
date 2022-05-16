@@ -3,17 +3,17 @@ import Switch from '@mui/material/Switch';
 import Grow from '@mui/material/Grow';
 import Collapse from '@mui/material/Collapse';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+// import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 
-const theme = createTheme({
-    palette: {
-        primary: '#2E2C29',
-    },
-});
+// const theme = createTheme({
+//     palette: {
+//         primary: '#2E2C29',
+//     },
+// });
 
 const project = (
-    <ThemeProvider theme={theme}>
+    <>
         <p className='project-text'>
             SPA to get and share coffee recipes with search and filtering tools and the capability to post new recipes
             <br />
@@ -26,13 +26,13 @@ const project = (
             <br />
             Designed layouts and components to provide a seamless user experience while navigating the application
         </p>
-        <Button variant='outlined' href='https://github.com/1NJ57C3/phase-3-sinatra-react-project-frontend' color='primary'>
+        <Button variant='outlined' href='https://github.com/1NJ57C3/phase-3-sinatra-react-project-frontend'>
             GitHub - Front End
         </Button>
-        <Button variant='outlined' href='https://github.com/1NJ57C3/phase-3-sinatra-react-project-backend' color='primary'>
+        <Button variant='outlined' href='https://github.com/1NJ57C3/phase-3-sinatra-react-project-backend'>
             GitHub - Back End
         </Button>
-    </ThemeProvider>
+    </>
 );
 
 function CoffeeMe() {
