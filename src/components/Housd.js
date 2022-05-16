@@ -5,6 +5,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import { Grow } from '@mui/material';
 
 const project = (
+    <>
         <p className='project-text'>
             Home maintenance checklist and service booking application designed with dual-user types for homeowners and service providers 
             <br />
@@ -20,6 +21,7 @@ const project = (
         <button className='project-btn'  href='https://github.com/hmccull/strength-trainer'>
             GitHub
         </button>
+    </>
   );
 
 function Housd() {
