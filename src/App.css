@@ -176,6 +176,7 @@ hr {
 }
 
 .project-btn:hover {
+  box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
   background-color: #2E2C29;
   color: #BDB1A5;
 }
