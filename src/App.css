@@ -11,6 +11,7 @@
 
 .App-header {
   background-color: #fcfcf9;
+  margin: 0;
 }
 
 .App-main {
@@ -64,7 +65,8 @@ html {
 #nav-bar {
   background-color: #fcfcf9;
   position: fixed;
-  padding: 2% 10% 2% 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
   float: right;
 }
 
@@ -172,6 +174,7 @@ hr {
   text-align: center;
   color: #2E2C29;
   font-size: 13px;
+  margin-bottom: 10px;
   transition: 0.4s;
 }
 

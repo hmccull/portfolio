@@ -18,8 +18,10 @@ const project = (
             <br />
             Utilized Auth and bcrypt to authenticate user login and authorize user functionality based on user type
         </p>
-        <button className='project-btn'  href='https://github.com/hmccull/strength-trainer'>
-            GitHub
+        <button className='project-btn'>
+            <a href='https://github.com/glpierce/project-template-react-rails-api' target='_blank'>
+                GitHub
+            </a>
         </button>
     </>
   );
