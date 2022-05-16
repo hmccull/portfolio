@@ -11,6 +11,7 @@
 
 .App-header {
   background-color: #fcfcf9;
+  position: fixed;
 }
 
 .App-main {
@@ -65,7 +66,6 @@ html {
   background-color: #fcfcf9;
   padding-top: 2% 10% 2% 0;
   float: right;
-  position: sticky;
 }
 
 ul {
@@ -86,7 +86,7 @@ li a {
   margin-bottom: 2%;
   margin-left: 7%;
   padding: 20px;
-  position: sticky;
+  position: fixed;
   bottom: 0;
 }
 
@@ -270,6 +270,7 @@ h5 {
   #social-nav-bar { display: flex; position: relative; }
   #home { padding-top: 60px; }
   #projects { float: none; flex: 1; padding: 3em 3em 0 3em; margin: 0em 5em 5em 5em; width: 90vw; }
+  .project-text { width: 100%; }
   #about { float: none; padding: 3em 3em 0 3em; margin: 0em 5em 5em 5em; width: 90vw; }
   #about-content { display: block; margin: 0; }
   #about-text { line-height: 23px; text-align: left; padding-top: 3em; }
