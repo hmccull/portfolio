@@ -6,11 +6,11 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 
-// const theme = createTheme({
-//     palette: {
-//         primary: #2E2C29
-//     },
-// });
+const theme = createTheme({
+    palette: {
+        primary: '#2E2C29',
+    },
+});
 
 const project = (
     <ThemeProvider>

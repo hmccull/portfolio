@@ -9,7 +9,7 @@ import Button from '@mui/material/Button';
 
 const theme = createTheme ({
     palette: {
-        primary: #2E2C29
+        primary: '#2E2C29',
     },
 });
 
