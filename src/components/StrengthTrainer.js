@@ -19,9 +19,11 @@ const project = (
             <br />
             Authenticated users at login by encrypting identifying account information via Auth and bcrypt
         </p>
-        <button className='project-btn' href='https://github.com/hmccull/strength-trainer' target='_blank'>
-            GitHub
-        </button>
+        <a href='https://github.com/hmccull/strength-trainer' target='_blank'>
+            <button className='project-btn'>
+                GitHub
+            </button>
+        </a>
     </>
 );
 

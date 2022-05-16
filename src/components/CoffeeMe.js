@@ -18,16 +18,16 @@ const project = (
             <br />
             Designed layouts and components to provide a seamless user experience while navigating the application
         </p>
-        <button className='project-btn'>
-            <a href='https://github.com/1NJ57C3/phase-3-sinatra-react-project-backend' target='_blank'>
-                GitHub - Front End
-            </a>
-        </button>
-        <button className='project-btn'>
             <a href='https://github.com/1NJ57C3/phase-3-sinatra-react-project-frontend' target='_blank'>
-                GitHub - Front End
+                <button className='project-btn'>
+                    GitHub - Front End
+                </button>
             </a>
-        </button>
+            <a href='https://github.com/1NJ57C3/phase-3-sinatra-react-project-backend' target='_blank'>
+                <button className='project-btn'>
+                    GitHub - Back End
+                </button>
+            </a>
     </>
 );
 
