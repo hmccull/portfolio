@@ -31,7 +31,7 @@ function CoffeeMe() {
         <div className='project-container'>
             <div className='project-header'>CoffeeMe</div>
 
-            <img id='project-pic' src='./coffeeme-recipe-mockup.png' alt='CoffeeMe Recipe App' width={900} />
+            <img id='project-pic' src='./coffeeme-recipes-mockup.png' alt='CoffeeMe Recipe App' width={900} />
 
             <FormControlLabel
                 control={<Switch checked={checked} onChange={handleChange} color='default' />}
