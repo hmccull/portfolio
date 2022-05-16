@@ -1,8 +1,17 @@
 import React, { useState, useRef } from 'react';
+
 import Switch from '@mui/material/Switch';
 import Collapse from '@mui/material/Collapse';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import { Grow } from '@mui/material';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Button from '@mui/material/Button';
+
+const theme = createTheme ({
+    palette: {
+        primary: #2E2C29
+    },
+});
 
 const project = (
     <>
