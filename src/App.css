@@ -56,20 +56,15 @@ html {
   margin-right: 10%;
   position: fixed;
   float: right;
-}
-
-ul {
-  list-style-type: none;
-}
-
- li {
-   float: left;
- }
-
-li a {
-  display: inline;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-  padding: 14px 16px 14px 0px;
+  padding: 14px 16px;
+}
+
+#nav-bar a {
+  overflow: hidden;
+  float: left;
+  text-align: center;
+  text-decoration: none;
 }
 
 #social-nav-bar {
@@ -170,6 +165,7 @@ hr {
   box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
   background-color: #2E2C29;
   color: #BDB1A5;
+  cursor: pointer;
 }
 
 /* * FONTS  */
@@ -267,11 +263,11 @@ h5 {
 
 @media all and (max-width: 768px) {
   .App { margin: 2px; padding: 1px; }
-  .App-header { padding: 0; display: flex; text-align: center; justify-content: center; font-size: 0.9em; }
+  .App-header { margin: 0; padding: 0; display: flex; text-align: center; justify-content: center; font-size: 0.9em; }
   .App-main { margin: 1px; padding: 1px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
   #loading { margin: 0; }
   .loading-logo { width: 90vw;}
-  ul { display: flex; margin-top: 10px; padding: 0; }
+  ul { display: flex; margin-top: 0; padding: 0; }
   li { float: none; margin: 0; padding-left: 1em; }
   li a { padding-left: 0.5em; font-size: 1em; text-align: center; }
   #logo-name { width: 60vw; }
