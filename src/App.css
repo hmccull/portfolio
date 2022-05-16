@@ -57,9 +57,16 @@ html {
   float: right;
 }
 
- #nav-bar a {
-  text-decoration: none;
-  display: block;
+ul {
+  list-style-type: none;
+}
+
+ li {
+   float: left;
+ }
+
+li a {
+  display: inline;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   padding: 14px 16px 14px 0px;
 }
@@ -263,8 +270,9 @@ h5 {
   .App-main { margin: 1px; padding: 1px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
   #loading { margin: 0; }
   .loading-logo { width: 90vw;}
-  #nav-bar { display: flex; margin-top: 10px; padding: 0; }
-  #nav-bar a { padding-left: 0.5em; font-size: 1em; text-align: center; }
+  ul { display: flex; margin-top: 10px; padding: 0; }
+  li { float: none; margin: 0; padding-left: 1em; }
+  li a { padding-left: 0.5em; font-size: 1em; text-align: center; }
   #logo-name { width: 60vw; }
   #social-nav-bar { display: flex; position: relative; }
   #home { padding-top: 60px; }
