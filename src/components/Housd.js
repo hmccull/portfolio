@@ -5,6 +5,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import { Grow } from '@mui/material';
 
 const project = (
+    <>
         <p className='project-text'>
             Home maintenance checklist and service booking application designed with dual-user types for homeowners and service providers 
             <br />
@@ -17,6 +18,10 @@ const project = (
             <br />
             Utilized Auth and bcrypt to authenticate user login and authorize user functionality based on user type
         </p>
+        <Button variant='outlined' href='https://github.com/glpierce/project-template-react-rails-api' color='dark'>
+            GitHub
+        </Button>
+    </>
   );
 
 function Housd() {

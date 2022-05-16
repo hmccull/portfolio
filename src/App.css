@@ -11,7 +11,6 @@
 
 .App-header {
   background-color: #fcfcf9;
-  position: fixed;
 }
 
 .App-main {
@@ -64,6 +63,7 @@ html {
 
 #nav-bar {
   background-color: #fcfcf9;
+  position: fixed;
   padding-top: 2% 10% 2% 0;
   float: right;
 }
