@@ -17,9 +17,9 @@ const project = (
             <br />
             Utilized Auth and bcrypt to authenticate user login and authorize user functionality based on user type
         </p>
-        <a className='project-btn'  href='https://github.com/hmccull/strength-trainer'>
+        <button className='project-btn'  href='https://github.com/hmccull/strength-trainer'>
             GitHub
-        </a>
+        </button>
   );
 
 function Housd() {

@@ -172,6 +172,12 @@ hr {
   text-align: center;
   color: #2E2C29;
   font-size: 13px;
+  transition: 0.4s;
+}
+
+.project-btn:hover {
+  background-color: #2E2C29;
+  color: #BDB1A5;
 }
 
 /* * FONTS  */
