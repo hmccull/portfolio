@@ -52,6 +52,9 @@ html {
 }
 
 #nav-bar {
+  top: 0;
+  left: 0;
+  padding: 2% 3% 2% 0;
   width: 100%;
   background-color: #fcfcf9;
   position: fixed;
