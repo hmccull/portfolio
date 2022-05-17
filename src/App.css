@@ -146,6 +146,11 @@ hr {
   border: .5px solid #2E2C29;
 }
 
+#footer {
+  background-color: #fcfcf9;
+  color: #2E2C29;
+}
+
 /* * PROJECTS */
 
 .project-container {

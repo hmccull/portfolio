@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Email from './components/Email';
 import SocialNavBar from './components/SocialNavBar';
 import LoadingMain from './components/LoadingMain';
+import Footer from './components/Footer';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -32,6 +33,9 @@ function App() {
         </div>
         <div>
           <SocialNavBar />
+        </div>
+        <div>
+          <Footer />
         </div>
       </Suspense>
     </div>
