@@ -273,16 +273,16 @@ h5 {
   .App-main { margin: 1px; padding: 1px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
   #loading { margin: 0; }
   .loading-logo { width: 90vw;}
-  #nav-bar { right: 0px; margin: 0; padding: 1em 0; text-align: center; background-color: #fcfcf9; }
+  #nav-bar { left: 0px; right: 0px; margin: 0; padding: 1em 0; text-align: center; background-color: #fcfcf9; }
   #nav-bar a { font-size: 1em; padding: 1em; }
   #logo-name { width: 60vw; }
   #social-nav-bar { display: block; margin: 0; bottom: 20px; position: relative; }
   #home { margin-top: 50px; padding-top: 60px; }
   .project-text { padding: 0; }
-  #about { float: none; padding: 4em 3em 0 0; margin: 0em 5em 5em 5em; width: 90vw; }
+  #about { float: none; padding: 4em; margin: 0; width: 90vw; }
   #about-content { display: block; margin: 0; }
   #about-text { line-height: 23px; text-align: left; padding-top: 3em; }
-  #projects { float: none; flex: 1; padding: 2em 3em 0 3em; margin: 0em 5em 5em 5em; width: 90vw; }
+  #projects { float: none; flex: 1; padding: 4em; margin: 0; width: 90vw; }
   #email { display: none; }
   hr { display: none; }
   .right-section-header, .left-section-header { float: none; text-align: left; }
