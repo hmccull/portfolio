@@ -1,8 +1,6 @@
 .App {
   text-align: center;
   background-color: #fcfcf9;
-  padding: 2px;
-  min-height: 280px;
 }
 
 .App-header {
@@ -20,7 +18,6 @@
 }
 
 body {
-  background-color: #fcfcf9;
   margin: 0;
   font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
@@ -57,7 +54,6 @@ html {
   width: 100%;
   top: 0;
   right: 1.5%;
-  margin-left: 0;
   padding: 2%;
   background-color: #fcfcf9;
 }
@@ -154,6 +150,7 @@ hr {
 }
 
 .project-btn {
+  background-color: #fcfcf9;
   border: .5px solid #2E2C29;
   border-radius: 5px;
   padding: 12px 28px;
@@ -168,7 +165,7 @@ hr {
 .project-btn:hover {
   box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
   background-color: #2E2C29;
-  color: #BDB1A5;
+  color: #fcfcf9;
   cursor: pointer;
 }
 
@@ -266,8 +263,7 @@ h5 {
 }
 
 @media all and (max-width: 768px) {
-  .App { margin: 2px; padding: 1px; }
-  .App-header { margin: 0; padding: 0; display: flex; text-align: center; justify-content: center; font-size: 0.9em; }
+  .App-header { font-size: 0.9em; }
   .App-main { margin: 1px; padding: 1px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
   #loading { margin: 0; }
   .loading-logo { width: 90vw;}
@@ -277,7 +273,8 @@ h5 {
   #social-nav-bar { display: flex; position: relative; }
   #home { padding-top: 60px; }
   #projects { float: none; flex: 1; padding: 3em 3em 0 3em; margin: 0em 5em 5em 5em; width: 90vw; }
-  .project-text { width: 100%; }
+  .project-text { padding: 0; width: 100%; }
+  .project-btn { display: block; }
   #about { float: none; padding: 3em 3em 0 3em; margin: 0em 5em 5em 5em; width: 90vw; }
   #about-content { display: block; margin: 0; }
   #about-text { line-height: 23px; text-align: left; padding-top: 3em; }
