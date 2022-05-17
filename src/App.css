@@ -55,7 +55,6 @@ html {
   top: 0;
   left: 0;
   padding: 2% 4% 2% 0;
-  width: 100vw;
   background-color: #fcfcf9;
   position: fixed;
   float: right;
@@ -97,7 +96,7 @@ a:active {
 /* * SECTIONS */
 
 #home {
-  padding-top: 100px;
+  padding-top: 200px;
   text-align: left;
   text-align: center;
   clear: both;
