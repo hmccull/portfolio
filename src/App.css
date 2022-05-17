@@ -54,8 +54,8 @@ html {
 #nav-bar {
   top: 0;
   left: 0;
-  padding: 2% 3% 2% 0;
-  width: 100%;
+  padding: 2% 4% 2% 0;
+  width: 100vw;
   background-color: #fcfcf9;
   position: fixed;
   float: right;
@@ -270,8 +270,8 @@ h5 {
   .App-main { margin: 1px; padding: 1px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
   #loading { margin: 0; }
   .loading-logo { width: 90vw;}
-  #nav-bar { float: none; margin: 0; }
-  #nav-bar a { font-size: 1em; padding: 1em; }
+  #nav-bar { float: none; margin: 0; text-align: center; background-color: #fcfcf9; }
+  #nav-bar a { font-size: 1em; padding: 1em; background-color: #fcfcf9; }
   #logo-name { width: 60vw; }
   #social-nav-bar { display: flex; position: relative; }
   #home { padding-top: 60px; }
