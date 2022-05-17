@@ -149,6 +149,8 @@ hr {
 #footer {
   background-color: #fcfcf9;
   color: #2E2C29;
+  padding: 4% 0;
+  text-align: center;
 }
 
 /* * PROJECTS */
