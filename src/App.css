@@ -52,13 +52,14 @@ html {
 }
 
 #nav-bar {
-  top: 0;
-  left: 0;
-  padding: 2% 4% 2% 0;
-  width: 100%;
-  background-color: #fcfcf9;
   position: fixed;
   float: right;
+  width: 100%;
+  top: 0;
+  right: 1.5%;
+  margin-left: 0;
+  padding: 2%;
+  background-color: #fcfcf9;
 }
 
 #nav-bar a {
@@ -66,7 +67,7 @@ html {
   text-align: center;
   text-decoration: none;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-  padding: 14px 16px;
+  padding: 20px 20px;
   text-transform: uppercase;
 }
 
@@ -121,7 +122,7 @@ a:active {
   float: left;
   margin: 0px 40% 10% 35%;
   width: 50vw;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 #email {
