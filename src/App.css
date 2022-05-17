@@ -6,7 +6,6 @@
 }
 
 .App-header {
-  padding: 5px;
   background-color: #fcfcf9;
 }
 
@@ -53,18 +52,19 @@ html {
 }
 
 #nav-bar {
-  overflow: hidden;
+  width: 100%;
   background-color: #fcfcf9;
   position: fixed;
   float: right;
 }
 
 #nav-bar a {
-  float: left;
+  float: right;
   text-align: center;
   text-decoration: none;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   padding: 14px 16px;
+  text-transform: uppercase;
 }
 
 #social-nav-bar {
