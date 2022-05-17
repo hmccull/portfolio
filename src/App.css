@@ -151,6 +151,8 @@ hr {
   color: #2E2C29;
   padding: 4% 0;
   text-align: center;
+  font-size: 10px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* * PROJECTS */
