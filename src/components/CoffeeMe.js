@@ -18,7 +18,7 @@ const project = (
             <br />
             Designed layouts and components to provide a seamless user experience while navigating the application
         </p>
-            <a href='https://github.com/1NJ57C3/phase-3-sinatra-react-project-frontend' target='_blank' style={{ marginRight='30px' }}>
+            <a href='https://github.com/1NJ57C3/phase-3-sinatra-react-project-frontend' target='_blank' style={{ marginRight: '30px' }}>
                 <button className='project-btn'>
                     GitHub - Front End
                 </button>
