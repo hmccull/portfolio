@@ -2,7 +2,7 @@ import React from 'react';
 import Slide from '@mui/material/Slide';
 
 const logo = (
-    <img src='./hmLogo.svg' className='loading-logo' alt='logo' />
+    <img src='./hmLogo.png' className='loading-logo' alt='logo' />
 )
 
 function LoadingMain() {
@@ -14,8 +14,8 @@ function LoadingMain() {
                 in
                 appear
                 timeout={{
-                    enter: 3000,
-                    exit: 2000
+                    enter: 2000,
+                    exit: 1000
                 }}
             >
                 {logo}
