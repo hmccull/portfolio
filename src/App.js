@@ -4,6 +4,8 @@ import React, { Suspense, useEffect, useState } from 'react';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import About from './components/About';
+import Experience from './components/Experience';
+import Education from './components/Education';
 import Projects from './components/Projects';
 import Email from './components/Email';
 import SocialNavBar from './components/SocialNavBar';
@@ -28,6 +30,8 @@ function App() {
         <div className='App-main'>
           <Home />
           <About />
+          <Experience />
+          <Education />
           <Projects />
           <Email />
         </div>
