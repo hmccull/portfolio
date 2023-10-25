@@ -343,7 +343,7 @@ h5 {
   #experience-content { display: block; margin: 0; }
   #experience-text { line-height: 23px; text-align: left; padding-top: 3em; }
   
-  #education { float: none; padding: 1em; margin: 0; width: 90vw; }
+  #education { float: none; padding: 1em; margin: 100px; width: 20vw; }
   #education-content { display: block; margin: 0; }
   #education-text { line-height: 23px; text-align: left; padding-top: 3em; }
 
