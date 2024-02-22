@@ -110,23 +110,19 @@ a:active {
   display: flex;
   clear: both;
   float: right;
-  margin: 3% 20% 10% 35%;
-  padding-top: 200px;
+  margin: 10% 20% 1% 20%;
 }
 
 #experience {
   display: flex;
   clear: both;
-  margin: 3% 35% 10% 20%;
-  padding-top: 200px;
+  margin: 10% 20% 1% 20%;
 }
 
 #education {
-  display: flex;
   clear: both;
-  padding-top: 150px;
   float: right;
-  margin: 3% 10% 32%;
+  margin: 10% 20% 1% 20%;
 }
 
 #about-content {
@@ -147,7 +143,7 @@ a:active {
 #projects {
   clear: both;
   float: left;
-  margin: 0px 40% 10% 35%;
+  margin: 10% 40% 10% 35%;
   width: 50vw;
 }
 
@@ -271,13 +267,14 @@ h5 {
 
 #education-text {
   margin-top: -20px;
-  padding-right: 5%;
+  padding-right: 7%;
   font-size: 17px;
-  line-height: 35px;
+  line-height: 22px;
   text-align: right;
   color: #2E2C29;
   font-family: 'Roboto';
-  width: 350px;
+  width: 275px;
+  white-space: nowrap;
 }
 
 .section-text {
@@ -320,7 +317,7 @@ h5 {
   flex: 1;
 }
 
-@media all and (max-width: 920px) {
+@media all and (max-width: 1000px) {
   .App-header { margin: 0; padding: 0; display: flex; text-align: center; justify-content: center; font-size: 0.9em; }
   .App-main { margin: 1px; padding: 1px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
 
@@ -335,19 +332,19 @@ h5 {
   #home { margin-top: 50px; padding-top: 60px; }
   .project-text { padding: 0; }
 
-  #about { float: none; padding: 1em; margin: 0; width: 90vw; }
+  #about { float: none; padding: 1em; margin: 50; width: 80vw; }
   #about-content { display: block; margin: 0; }
   #about-text { line-height: 23px; text-align: left; padding-top: 3em; }
 
-  #experience { float: none; padding: 1em; margin: 0; width: 90vw; }
-  #experience-content { display: block; margin: 0; }
+  #experience { float: none; padding: 1em; margin: 50; width: 80vw; }
+  #experience-content { display: block; margin: 0; float: none; }
   #experience-text { line-height: 23px; text-align: left; padding-top: 3em; }
   
-  #education { float: none; padding: 1em; margin: 100px; width: 20vw; }
-  #education-content { display: block; margin: 0; }
+  #education { float: left; padding: 1em; margin: 50px; width: 80vw; }
+  #education-content { display: block; margin: 0; float: none; }
   #education-text { line-height: 23px; text-align: left; padding-top: 3em; }
 
-  #projects { float: none; flex: 1; padding: 1em; margin: 0; width: 90vw; }
+  #projects { float: none; flex: 1; padding: 1em; margin: 0; width: 80vw; }
   #email { display: none; }
   hr { display: none; }
   .right-section-header, .left-section-header { float: none; text-align: left; }
