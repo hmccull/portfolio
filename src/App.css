@@ -116,7 +116,7 @@ a:active {
 #experience {
   display: flex;
   clear: both;
-  margin: 7% 35% 10% 20%;
+  margin: 7% 25% 10% 20%;
 }
 
 #education {
@@ -259,7 +259,7 @@ h5 {
 #experience-text {
   margin-top: -20px;
   font-size: 17px;
-  line-height: 35px;
+  line-height: 28px;
   text-align: left;
   color: #2E2C29;
   font-family: 'Roboto';
@@ -325,7 +325,7 @@ h5 {
   .loading-logo { margin-top: 0%; width: 70vw;}
   #logo-name { width: 60vw; }
 
-  #nav-bar { right: 0px; margin: 0; padding: 1em 2em; background-color: #fcfcf9; }
+  #nav-bar { right: 0px; margin: 0; padding: 1em 2em; background-color: #fcfcf9;}
   #nav-bar a { font-size: 1em; padding: 1em; }
   #social-nav-bar { display: block; margin: 0; bottom: 20px; position: relative; }
 
