@@ -26,6 +26,9 @@ function Experience() {
               • Utilized Auth & bcrypt to authenticate user login and authorize user functionality based on user type
             </p>
             <p>
+              • Exhibited strong project management skills in planning & documenting project tasks resulting development progression
+            </p>
+            <p>
               • Designed websites for small businesses using content management systems with enhanced UI/UX, resulting in increased traffic and leads
             </p>
           </div>
@@ -39,16 +42,19 @@ function Experience() {
               • Served as team lead providing technical guidance, mentorship, and knowledge to teammates
             </p>
             <p>
-              • Implemented client direct request, quick turnaround feature enhancements in Python RESTful APIs
+              • Implemented client-direct requests, quick turnaround feature enhancements in Python RESTful APIs
             </p>
             <p>
               • Used strong troubleshooting and bug resolution abilities to quickly rectify production API issues using DataDog, EKS, and Postman
             </p>
             <p>
+              • Successfully managed technical implementation projects by eliminating blockers, evolving project process, & ensuring on-time deliverables
+            </p>
+            <p>
               • Managed internal & external developer documentation in Confluence that provided a deeper understanding of the technical side of the products & implementations
             </p>
             <p>
-              • Provided consistent results via strong program design & management skills utilizing Jira & LucidChart
+              • Provided consistent results via strong program design & management skills utilizing Jira & Rocketlane
             </p>
             <p>
               • Improved cross-team processes by providing feedback and alternative solutions to leadership, which positively impacted client experience integration changes
