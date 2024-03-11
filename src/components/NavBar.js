@@ -3,7 +3,8 @@ import React from 'react';
 function NavBar() {
     return (
         <div id='nav-bar'>
-            <a href='./HannahMcCulloughResume.pdf' target='blank'>Resume</a>
+            <a href='./HannahMcCulloughResumePM.pdf' target='blank'>PM Resume</a>
+            <a href='./HannahMcCulloughResumeSE.pdf' target='blank'>SE Resume</a>
             <a href='#projects'>Projects</a>
             <a href='#education'>Education</a>
             <a href='#experience'>Experience</a>
