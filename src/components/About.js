@@ -14,7 +14,7 @@ function About() {
       <div id='about-content'>
         <img id='prof-pic' src='./profPic.png' alt='Hannah McCullough' />
         <p id='about-text'>
-            I'm an innovative full-stack software engineer with skills in building applications & APIs with a user-experience approach. Having a curious mind and a background in customer service, management, and athletics, I bring strong skills in client relations, collaboration, and leadership.
+            I'm an innovative full-stack software engineer with skills in building applications & APIs with a user-experience approach, along with technical implementation project management. Having a curious mind and a background in customer service, management, and athletics, I bring strong skills in client relations, collaboration, and leadership.
         </p>
       </div>
       </Collapse>
