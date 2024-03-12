@@ -22,7 +22,7 @@ function Experience() {
         <div id='experience-content'>
           <div id='experience-text'>
             <b>Freelance</b> <br />
-            <b>Web Developer & Project Manager</b> <br />
+            <b>Web Developer/Project Manager</b> <br />
             <i>Phoenix, AZ | 01/2018 - Present</i>
             <p>
               • Currently developing a full-stack application with extensive user capabilities and public property data utilizing React, JavaScript, TypeScript, Rails, & Active Record
