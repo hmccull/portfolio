@@ -15,7 +15,7 @@ function Experience() {
           <div id='experience-text'>
             <b>Skills</b> <br />
             <p>
-              JavaScript, React, RESTful APIs, Node, TypeScript, Python, HTML, CSS, Project Management, Jira, Banking, Rocketlane, P&C Insurance, Microsoft, MongoDB, Ruby on Rails, Git, DataDog, Microservices, Content Management Systems, Postman, AWS, SQLite, Docker, Bootstrap
+              JavaScript, React, RESTful APIs, Node, TypeScript, Python, HTML, CSS, Project Management, Jira, Banking, Rocketlane, P&C Insurance, BaaS, FinTech, Microsoft, MongoDB, Ruby on Rails, Git, DataDog, Microservices, Content Management Systems, Postman, AWS, SQLite, Docker, Bootstrap
             </p>
           </div>
         </div>
@@ -25,7 +25,7 @@ function Experience() {
             <b>Web Developer/Project Manager</b> <br />
             <i>Phoenix, AZ | 01/2018 - Present</i>
             <p>
-              • Currently developing a full-stack application with extensive user capabilities and public property data utilizing React, JavaScript, TypeScript, Rails, & Active Record
+              • Collaboratively develop full-stack, responsive web applications based on product design specifications utilizing React, JavaScript, TypeScript, Tailwind CSS, & Rails
             </p>
             <p>
               • Providing strong project management skills in planning & documenting project tasks resulting development progression
@@ -34,10 +34,10 @@ function Experience() {
               • Modeled custom database schema and REST API with Ruby on Rails, Active Record, & PostgresSQL
             </p>
             <p>
-              • Utilized Auth & bcrypt to authenticate user login and authorize user functionality based on user type
+              • Scope & create user stories in a collaborative team setting with product guidance
             </p>
             <p>
-              • Designed websites for small businesses using content management systems with enhanced UI/UX, resulting in increased traffic and leads
+              • Design, develop, launch, & support responsive web applications for businesses resulting in increased traffic & leads
             </p>
           </div>
         </div>
