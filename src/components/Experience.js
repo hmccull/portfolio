@@ -21,23 +21,17 @@ function Experience() {
         </div>
         <div id='experience-content'>
           <div id='experience-text'>
-            <b>Freelance</b> <br />
-            <b>Web Developer/Project Manager</b> <br />
-            <i>Phoenix, AZ | 01/2018 - Present</i>
+            <b>REX</b> <br />
+            <b>Web Developer</b> <br />
+            <i>Phoenix, AZ | 10/2023 - Present</i>
             <p>
-              • Collaboratively develop full-stack, responsive web applications based on product design specifications utilizing React, JavaScript, TypeScript, Tailwind CSS, & Rails
+              • Develop a full-stack, responsive web application based on product design specifications utilizing React, JavaScript, TypeScript, Tailwind CSS, and Rails
             </p>
             <p>
-              • Providing strong project management skills in planning & documenting project tasks resulting development progression
+              • Model custom database schemas and RESTful APIs with Rails, Active Record, and PostgresSQL to ensure efficient data management and system performance
             </p>
             <p>
-              • Modeled custom database schema and REST API with Ruby on Rails, Active Record, & PostgresSQL
-            </p>
-            <p>
-              • Scope & create user stories in a collaborative team setting with product guidance
-            </p>
-            <p>
-              • Design, develop, launch, & support responsive web applications for businesses resulting in increased traffic & leads
+              • Collaboratively define project scope and craft user stories based on product and design requirements, fostering stakeholder alignment and facilitating effective communication within the team
             </p>
           </div>
         </div>
@@ -47,7 +41,7 @@ function Experience() {
             <b>Software Engineer II</b> <br />
             <i>Remote | 07/2022 - 10/2023</i>
             <p>
-              • Served as team lead providing technical guidance, mentorship, and knowledge to teammates
+              • Served as team lead providing technical guidance, mentorship, and knowledge to teammates, resulting in furthered progress of technical implementations
             </p>
             <p>
               • Implemented client-direct requests, quick turnaround feature enhancements in Python RESTful APIs
@@ -71,14 +65,11 @@ function Experience() {
         </div>
         <div id='experience-content'>
           <div id='experience-text'>
-            <b>USAA</b> <br />
-            <b>Software Engineer II</b> <br />
-            <i>Phoenix, AZ | 09/2018 - 11/2021</i>
+            <b>Freelance</b> <br />
+            <b>Web Developer & Designer</b> <br />
+            <i>Phoenix, AZ | 01/2018 - 07/2022</i>
             <p>
-              • Served as a department facilitator in the Pulse initiative by communicating employee feedback & innovation to executives
-            </p>
-            <p>
-              • Regularly facilitated team meetings, which resulted in an overall increase in team metrics
+              • Designed, launched, and maintained websites with user-friendly interfaces utilizing content management systems, including Wordpress and SquareSpace, which effectively increased traffic, leads, and sales
             </p>
           </div>
         </div>
